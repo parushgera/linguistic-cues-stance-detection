@@ -1,0 +1,4 @@
+Feature,LR Coef,Significant,Effect Size,Impact,Max Misclass Rate
+stopword_ratio,-1.206,yes,Cliff's delta (medium),↓ Correct,"75.0% ((0.345, 0.571])"
+hedge_C_count,-0.738,yes,Cliff's delta (small),↓ Correct,"76.9% ((21.0, 45.0])"
+doubt_adverbs_count,-0.620,yes,Cliff's delta (small),↓ Correct,"66.7% ((1.0, 3.0])"

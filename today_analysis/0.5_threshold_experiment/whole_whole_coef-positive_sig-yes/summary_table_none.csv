@@ -1,0 +1,3 @@
+Feature,LR Coef,Significant,Effect Size,Impact,Max Misclass Rate
+function_word_ratio,+0.866,yes,Cliff's delta (medium),↑ Correct,"38.3% ((0.301, 0.4])"
+punctuation_density,+0.558,yes,Cliff's delta (small),↑ Correct,"45.8% ((-0.001, 0.2])"

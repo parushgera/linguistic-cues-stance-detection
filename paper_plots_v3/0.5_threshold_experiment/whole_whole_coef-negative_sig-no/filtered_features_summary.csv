@@ -1,0 +1,5 @@
+feature,dataset,target,stance,source,t_pvalue,u_pvalue,cohens_d,cliffs_delta,cohen_strength,cliff_strength,distributions_normal,preferred_effect,preferred_strength,significant,coefficient,abs_coef
+hedge_C_count,whole,ALL,All Stances,whole,0.1437,0.2415,0.1555,0.0743,small,negligible,False,Cliff's delta,negligible,no,-0.7533912084743177,0.7533912084743177
+function_word_ratio,whole,ALL,NONE,whole,0.4657,0.5143,0.075,0.0371,small,negligible,False,Cliff's delta,negligible,no,-0.8657516905369943,0.8657516905369943
+punctuation_density,whole,ALL,NONE,whole,0.9886,0.9546,0.0015,-0.0036,small,negligible,False,Cliff's delta,negligible,no,-0.5580391286128034,0.5580391286128034
+function_word_ratio,whole,ALL,NONE,whole,0.6579,0.6114,-0.0478,-0.0323,small,negligible,False,Cliff's delta,negligible,no,-0.8657516905369943,0.8657516905369943

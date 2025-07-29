@@ -1,0 +1,5 @@
+Feature,LR Coef,Significant,Effect Size,Impact,Max Misclass Rate
+anger,+0.737,no,Cliff's delta (negligible),↑ Misclass,"33.3% ((0.0183, 0.078])"
+fear,+0.729,no,Cliff's delta (negligible),↑ Misclass,"44.8% ((0.824, 0.995])"
+stopword_ratio,+0.482,no,Cohen's d (small),↑ Misclass,"39.7% ((0.338, 0.571])"
+disgust,+0.332,no,Cliff's delta (small),↑ Misclass,"31.0% ((-0.000872, 0.00045])"

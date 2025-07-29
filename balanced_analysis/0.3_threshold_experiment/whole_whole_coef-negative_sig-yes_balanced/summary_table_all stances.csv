@@ -1,0 +1,2 @@
+Feature,LR Coef,Significant,Effect Size,Impact,Max Misclass Rate,Stance
+fear,-0.399,yes,Cliff's delta (small),↓ Correct,"71.4% (NONE: (0.875, 0.995])",NONE

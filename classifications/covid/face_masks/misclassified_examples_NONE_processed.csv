@@ -1,0 +1,16 @@
+target,text,stance,word_count,sentence_count,avg_word_length,std_word_length,type_token_ratio,hapax_legomena,stopword_ratio,punctuation_density,noun_ratio,verb_ratio,adj_ratio,adv_ratio,pronoun_ratio,avg_dependency_depth,function_word_ratio,punctuation_usage,readability_score,sentence_length_variation,subordinate_clause_ratio,sentiment_polarity,sentiment_subjectivity,anger,joy,fear,sadness,disgust,surprise,certainty_adverbs_count,certainty_verbs_count,certainty_adjectives_count,doubt_adverbs_count,doubt_verbs_count,doubt_adjectives_count,hedges_score,hedge_C_count,hedge_D_count,hedge_E_count,hedge_I_count,hedge_N_count,C_ratio,D_ratio,E_ratio,I_ratio,N_ratio
+face_masks,English people don’t know what is wearing a mask,2,11.0,1.0,3.6363636363636362,2.185602778212965,1.0,1.0,0.45454545454545453,0.0,0.2727272727272727,0.36363636363636365,0.18181818181818182,0.0,0.0,1.0,0.5,0.0,3.3,0.0,0.09090909090909091,0.0,0.0,0.03164298087358475,0.0020164591260254383,0.021032610908150673,0.009386896155774593,0.11895253509283066,0.17626678943634033,0.0,1.0,0.0,0.0,0.0,0.0,0.0,9.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+face_masks,"I don’t understand why everyone is mad about #FireFauci :thinking_face: here’s the deal either he’s a liar or a fraud, probably both. He’s a sneaky snake. We need to be more protective of our bodies! The government doesn’t take care of us... Wake up :eyes:  #WWGIWGA ",2,67.0,4.0,3.283582089552239,2.741641136957629,0.7761194029850746,0.6567164179104478,0.43283582089552236,0.208955223880597,0.26865671641791045,0.13432835820895522,0.05970149253731343,0.04477611940298507,0.08955223880597014,1.0,0.5238095238095238,0.08955223880597014,4.5,6.576473218982953,0.029850746268656716,0.0,0.75,0.08536642789840698,0.0027828007005155087,0.9052594900131226,0.0029054083861410618,0.0007607154548168182,0.001746628899127245,0.0,2.0,0.0,0.0,0.0,0.0,0.9400727152824402,45.0,0.0,1.0,0.0,0.0,0.9782608695652174,0.0,0.021739130434782608,0.0,0.0
+face_masks,"Washington State has a population est. to be 7,800,000
+
+Governor Inslee has ordered masks to be worn for all businesses
+
+TOTAL #COVID19 deaths for the state are 1,410
+
+RATIO:
+
+68,000 seats at a Sold-Out @Seahawks game at @CenturyLink_Fld 
+
+...with 12 no-shows
+
+",2,47.0,2.0,4.531914893617022,3.065602324140915,0.851063829787234,0.7021276595744681,0.3404255319148936,0.3191489361702128,0.40425531914893614,0.14893617021276595,0.02127659574468085,0.02127659574468085,0.0,1.0,0.32727272727272727,0.0851063829787234,6.3,14.5,0.0425531914893617,-0.2,0.575,0.10230397433042526,0.023864109069108963,0.26230770349502563,0.39452415704727173,0.0011032212059944868,0.17386704683303833,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0

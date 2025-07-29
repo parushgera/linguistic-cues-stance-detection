@@ -1,0 +1,2 @@
+Feature,LR Coef,Significant,Effect Size,Impact,Max Misclass Rate
+function_word_ratio,-0.866,no,Cliff's delta (negligible),↓ Misclass,"38.3% ((0.301, 0.4])"

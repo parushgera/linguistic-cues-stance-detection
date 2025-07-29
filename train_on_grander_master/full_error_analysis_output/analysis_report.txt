@@ -1,0 +1,295 @@
+
+
+======================================================================
+==================== Analyzing Stance: All_Stances ====================
+======================================================================
+Analyzing 1516 samples for stance 'All_Stances'.
+
+--- Identifying Key Differentiating Features ---
+
+Logistic Regression Top Features (Coefficient indicates direction: + for Correct, - for Misclassified):
+            feature  coefficient
+         word_count    -0.770570
+      hedge_C_count     0.634636
+   type_token_ratio    -0.553086
+      hedge_I_count    -0.452987
+            I_ratio     0.326928
+     hapax_legomena     0.319493
+         verb_ratio    -0.306185
+punctuation_density     0.302159
+    avg_word_length    -0.299789
+      hedge_D_count     0.219786
+
+---
+XGBoost Top Features:
+                   feature  importance
+                   D_ratio    0.081461
+    doubt_adjectives_count    0.058610
+   certainty_adverbs_count    0.047569
+                   E_ratio    0.037342
+             hedge_N_count    0.035345
+                   C_ratio    0.033363
+certainty_adjectives_count    0.029585
+        sentiment_polarity    0.029038
+                verb_ratio    0.027354
+         punctuation_usage    0.026073
+
+--- Statistical Tests and Plots for Top Features ---
+
+- Analyzing Feature: 'word_count'
+  📊 T-test Result: p-value = 0.0330
+  💡 Statistically Significant: 'Correct' texts have a lower 'word_count' value.
+
+- Analyzing Feature: 'hedge_C_count'
+  📊 T-test Result: p-value = 0.0321
+  💡 Statistically Significant: 'Correct' texts have a lower 'hedge_C_count' value.
+
+- Analyzing Feature: 'type_token_ratio'
+  📊 T-test Result: p-value = 0.1544
+
+- Analyzing Feature: 'hedge_I_count'
+  📊 T-test Result: p-value = 0.3452
+
+- Analyzing Feature: 'I_ratio'
+  📊 T-test Result: p-value = 0.6296
+
+- Analyzing Feature: 'hapax_legomena'
+  📊 T-test Result: p-value = 0.1918
+
+- Analyzing Feature: 'verb_ratio'
+  📊 T-test Result: p-value = 0.0000
+  💡 Statistically Significant: 'Correct' texts have a lower 'verb_ratio' value.
+
+- Analyzing Feature: 'punctuation_density'
+  📊 T-test Result: p-value = 0.0003
+  💡 Statistically Significant: 'Correct' texts have a higher 'punctuation_density' value.
+
+- Analyzing Feature: 'avg_word_length'
+  📊 T-test Result: p-value = 0.2014
+
+- Analyzing Feature: 'hedge_D_count'
+  📊 T-test Result: p-value = 1.0000
+
+✅ All plots for All_Stances saved in 'full_error_analysis_output/feature_plots/All_Stances'.
+✅ Qualitative sample for All_Stances saved to 'full_error_analysis_output/qualitative_sample_All_Stances.csv'.
+
+
+======================================================================
+==================== Analyzing Stance: FAVOR ====================
+======================================================================
+Analyzing 386 samples for stance 'FAVOR'.
+
+--- Identifying Key Differentiating Features ---
+
+Logistic Regression Top Features (Coefficient indicates direction: + for Correct, - for Misclassified):
+      feature  coefficient
+hedge_N_count     1.152860
+      N_ratio    -0.643449
+      disgust    -0.522992
+hedge_E_count     0.479475
+hedge_D_count     0.395567
+      C_ratio     0.392317
+hedge_C_count     0.375631
+   verb_ratio    -0.318721
+          joy     0.310540
+   noun_ratio    -0.289590
+
+---
+XGBoost Top Features:
+                   feature  importance
+       doubt_adverbs_count    0.075264
+                       joy    0.066459
+                 adv_ratio    0.061592
+                word_count    0.057864
+          type_token_ratio    0.048541
+            stopword_ratio    0.043919
+                     anger    0.042411
+certainty_adjectives_count    0.035791
+             pronoun_ratio    0.034010
+             hedge_E_count    0.033905
+
+--- Statistical Tests and Plots for Top Features ---
+
+- Analyzing Feature: 'hedge_N_count'
+  📊 T-test Result: p-value = 0.4844
+
+- Analyzing Feature: 'N_ratio'
+  📊 T-test Result: p-value = 0.1619
+
+- Analyzing Feature: 'disgust'
+  📊 T-test Result: p-value = 0.0312
+  💡 Statistically Significant: 'Correct' texts have a lower 'disgust' value.
+
+- Analyzing Feature: 'hedge_E_count'
+  📊 T-test Result: p-value = 0.4898
+
+- Analyzing Feature: 'hedge_D_count'
+  📊 T-test Result: p-value = 0.6488
+
+- Analyzing Feature: 'C_ratio'
+  📊 T-test Result: p-value = 0.9629
+
+- Analyzing Feature: 'hedge_C_count'
+  📊 T-test Result: p-value = 0.8454
+
+- Analyzing Feature: 'verb_ratio'
+  📊 T-test Result: p-value = 0.0252
+  💡 Statistically Significant: 'Correct' texts have a lower 'verb_ratio' value.
+
+- Analyzing Feature: 'joy'
+  📊 T-test Result: p-value = 0.0000
+  💡 Statistically Significant: 'Correct' texts have a higher 'joy' value.
+
+- Analyzing Feature: 'noun_ratio'
+  📊 T-test Result: p-value = 0.1706
+
+✅ All plots for FAVOR saved in 'full_error_analysis_output/feature_plots/FAVOR'.
+✅ Qualitative sample for FAVOR saved to 'full_error_analysis_output/qualitative_sample_FAVOR.csv'.
+
+
+======================================================================
+==================== Analyzing Stance: AGAINST ====================
+======================================================================
+Analyzing 484 samples for stance 'AGAINST'.
+
+--- Identifying Key Differentiating Features ---
+
+Logistic Regression Top Features (Coefficient indicates direction: + for Correct, - for Misclassified):
+            feature  coefficient
+function_word_ratio    -0.785866
+              anger     0.698739
+     hapax_legomena    -0.617446
+    avg_word_length     0.606995
+      hedge_N_count     0.568981
+               fear     0.559462
+            N_ratio    -0.548933
+            disgust     0.532920
+   type_token_ratio     0.526011
+    std_word_length    -0.509885
+
+---
+XGBoost Top Features:
+               feature  importance
+doubt_adjectives_count    0.169181
+    sentiment_polarity    0.047238
+               C_ratio    0.040078
+                   joy    0.039339
+   punctuation_density    0.037873
+       avg_word_length    0.032697
+               sadness    0.032100
+          hedges_score    0.031665
+              surprise    0.031475
+       std_word_length    0.029824
+
+--- Statistical Tests and Plots for Top Features ---
+
+- Analyzing Feature: 'function_word_ratio'
+  📊 T-test Result: p-value = 0.0000
+  💡 Statistically Significant: 'Correct' texts have a lower 'function_word_ratio' value.
+
+- Analyzing Feature: 'anger'
+  📊 T-test Result: p-value = 0.0000
+  💡 Statistically Significant: 'Correct' texts have a higher 'anger' value.
+
+- Analyzing Feature: 'hapax_legomena'
+  📊 T-test Result: p-value = 0.6145
+
+- Analyzing Feature: 'avg_word_length'
+  📊 T-test Result: p-value = 0.0000
+  💡 Statistically Significant: 'Correct' texts have a higher 'avg_word_length' value.
+
+- Analyzing Feature: 'hedge_N_count'
+  📊 T-test Result: p-value = 0.6774
+
+- Analyzing Feature: 'fear'
+  📊 T-test Result: p-value = 0.7360
+
+- Analyzing Feature: 'N_ratio'
+  📊 T-test Result: p-value = 0.2645
+
+- Analyzing Feature: 'disgust'
+  📊 T-test Result: p-value = 0.0863
+
+- Analyzing Feature: 'type_token_ratio'
+  📊 T-test Result: p-value = 0.6157
+
+- Analyzing Feature: 'std_word_length'
+  📊 T-test Result: p-value = 0.0013
+  💡 Statistically Significant: 'Correct' texts have a higher 'std_word_length' value.
+
+✅ All plots for AGAINST saved in 'full_error_analysis_output/feature_plots/AGAINST'.
+✅ Qualitative sample for AGAINST saved to 'full_error_analysis_output/qualitative_sample_AGAINST.csv'.
+
+
+======================================================================
+==================== Analyzing Stance: NONE ====================
+======================================================================
+Analyzing 646 samples for stance 'NONE'.
+
+--- Identifying Key Differentiating Features ---
+
+Logistic Regression Top Features (Coefficient indicates direction: + for Correct, - for Misclassified):
+         feature  coefficient
+ avg_word_length    -0.820662
+type_token_ratio    -0.578348
+   hedge_E_count    -0.571636
+         N_ratio     0.507204
+ std_word_length     0.453335
+         C_ratio    -0.432717
+  hapax_legomena     0.426815
+      noun_ratio     0.399192
+  stopword_ratio     0.343538
+      verb_ratio    -0.330358
+
+---
+XGBoost Top Features:
+                   feature  importance
+certainty_adjectives_count    0.065807
+                word_count    0.055227
+                   N_ratio    0.054289
+   certainty_adverbs_count    0.052733
+                      fear    0.052612
+        sentiment_polarity    0.038770
+             hedge_N_count    0.038250
+                verb_ratio    0.033862
+          type_token_ratio    0.031684
+    doubt_adjectives_count    0.030755
+
+--- Statistical Tests and Plots for Top Features ---
+
+- Analyzing Feature: 'avg_word_length'
+  📊 T-test Result: p-value = 0.0004
+  💡 Statistically Significant: 'Correct' texts have a lower 'avg_word_length' value.
+
+- Analyzing Feature: 'type_token_ratio'
+  📊 T-test Result: p-value = 0.1079
+
+- Analyzing Feature: 'hedge_E_count'
+  📊 T-test Result: p-value = 0.4496
+
+- Analyzing Feature: 'N_ratio'
+  📊 T-test Result: p-value = 0.0006
+  💡 Statistically Significant: 'Correct' texts have a higher 'N_ratio' value.
+
+- Analyzing Feature: 'std_word_length'
+  📊 T-test Result: p-value = 0.5171
+
+- Analyzing Feature: 'C_ratio'
+  📊 T-test Result: p-value = 0.0465
+  💡 Statistically Significant: 'Correct' texts have a lower 'C_ratio' value.
+
+- Analyzing Feature: 'hapax_legomena'
+  📊 T-test Result: p-value = 0.1318
+
+- Analyzing Feature: 'noun_ratio'
+  📊 T-test Result: p-value = 0.8424
+
+- Analyzing Feature: 'stopword_ratio'
+  📊 T-test Result: p-value = 0.2326
+
+- Analyzing Feature: 'verb_ratio'
+  📊 T-test Result: p-value = 0.0001
+  💡 Statistically Significant: 'Correct' texts have a lower 'verb_ratio' value.
+
+✅ All plots for NONE saved in 'full_error_analysis_output/feature_plots/NONE'.
+✅ Qualitative sample for NONE saved to 'full_error_analysis_output/qualitative_sample_NONE.csv'.

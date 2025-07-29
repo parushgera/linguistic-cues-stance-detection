@@ -1,0 +1,9 @@
+Feature,LR Coef,Significant,Effect Size,Impact,Max Misclass Rate
+sentence_count,+0.430,yes,Cliff's delta (medium),↑ Correct,"71.4% ((2.0, 3.0])"
+pronoun_ratio,+0.315,yes,Cliff's delta (negligible),↑ Correct,"59.0% ((0.0979, 0.229])"
+noun_ratio,+0.285,yes,Cliff's delta (medium),↑ Correct,"60.7% ((0.099, 0.27])"
+joy,+0.257,yes,Cliff's delta (small),↑ Correct,"71.4% ((-0.000735, 0.00449])"
+certainty_adjectives_count,+0.224,yes,Cliff's delta (negligible),↑ Correct,"53.1% ((-0.001, 1.0])"
+sadness,+0.208,yes,Cliff's delta (negligible),↑ Correct,"67.9% ((0.00030999999999999995, 0.00874])"
+avg_word_length,+0.174,yes,Cliff's delta (medium),↑ Correct,"81.5% ((3.75, 4.101])"
+certainty_adverbs_count,+0.132,yes,Cliff's delta (negligible),↑ Correct,"50.0% ((-0.001, 3.0])"

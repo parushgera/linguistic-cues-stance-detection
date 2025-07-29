@@ -1,0 +1,5 @@
+feature,dataset,target,stance,source,t_pvalue,u_pvalue,cohens_d,cliffs_delta,cohen_strength,cliff_strength,distributions_normal,preferred_effect,preferred_strength,significant,coefficient,abs_coef
+avg_word_length,whole,ALL,AGAINST,whole,0.0,0.0,0.6902,0.3829,medium,medium,False,Cliff's delta,medium,yes,0.5395900400106086,0.5395900400106086
+sentence_count,whole,ALL,FAVOR,whole,0.0,0.0,-0.8121,-0.3763,large,medium,False,Cliff's delta,medium,yes,0.42987190635805894,0.42987190635805894
+pronoun_ratio,whole,ALL,NONE,whole,0.0016,0.026,0.2867,0.1404,small,negligible,False,Cliff's delta,negligible,yes,0.41391863579425026,0.41391863579425026
+function_word_ratio,whole,ALL,NONE,whole,0.0,0.0,-0.6491,-0.378,medium,medium,False,Cliff's delta,medium,yes,0.7900610396347704,0.7900610396347704

@@ -1,0 +1,16 @@
+\begin{tabular}{llllll}
+\toprule
+Feature & LR Coef & Significant & Effect Size & Impact & Max Misclass Rate \\
+\midrule
+C_ratio & +0.390 & No & - & ↑ Misclass & - \\
+hedge_D_count & +0.337 & No & - & ↑ Misclass & - \\
+pronoun_ratio & -0.311 & yes & Cliff's delta (small) & ↓ Misclass & 43.6% (NONE: (-0.001, 0.0408]) \\
+std_word_length & +0.310 & yes & Cliff's delta (negligible) & ↑ Misclass & 50.0% (NONE: (1.504, 2.53]) \\
+hedge_N_count & +0.309 & No & - & ↑ Misclass & - \\
+word_count & -0.230 & No & - & ↓ Misclass & - \\
+hedge_C_count & +0.221 & yes & Cliff's delta (small) & ↑ Misclass & 45.8% (NONE: (19.0, 29.0]) \\
+doubt_verbs_count & -0.220 & No & - & ↓ Misclass & - \\
+joy & +0.204 & yes & Cliff's delta (small) & ↑ Misclass & 50.0% (NONE: (0.00035000000000000005, 0.00457]) \\
+verb_ratio & +0.195 & No & - & ↑ Misclass & - \\
+\bottomrule
+\end{tabular}

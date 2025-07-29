@@ -1,0 +1,61 @@
+feature,dataset,target,stance,source,t_pvalue,u_pvalue,cohens_d,cliffs_delta,cohen_strength,cliff_strength,distributions_normal,preferred_effect,preferred_strength,significant,coefficient,abs_coef
+word_count,whole,ALL,All Stances,whole,0.01,0.0042,0.2504,0.1628,small,small,False,Cliff's delta,small,yes,-0.7036685344525412,0.7036685344525412
+anger,whole,ALL,All Stances,whole,0.0002,0.1967,0.2923,0.0734,small,negligible,False,Cliff's delta,negligible,yes,-0.15063572585325982,0.15063572585325982
+surprise,whole,ALL,All Stances,whole,0.0782,0.0014,-0.1763,-0.1816,small,small,False,Cliff's delta,small,yes,-0.19775094247018107,0.19775094247018107
+type_token_ratio,whole,ALL,All Stances,whole,0.0372,0.0634,-0.2197,-0.1178,small,negligible,False,Cliff's delta,negligible,yes,-0.2101691831857331,0.2101691831857331
+adj_ratio,whole,ALL,All Stances,whole,0.0293,0.0166,-0.2471,-0.1517,small,small,False,Cliff's delta,small,yes,-0.23365633809081623,0.23365633809081623
+adv_ratio,whole,ALL,All Stances,whole,0.0172,0.0058,-0.2616,-0.1717,small,small,False,Cliff's delta,small,yes,-0.1463977702138097,0.1463977702138097
+anger,whole,ALL,All Stances,whole,0.0006,0.0003,-0.4944,-0.2291,medium,small,False,Cliff's delta,small,yes,-0.15063572585325982,0.15063572585325982
+surprise,whole,ALL,All Stances,whole,0.5087,0.0015,-0.0984,0.2015,small,small,False,Cliff's delta,small,yes,-0.19775094247018107,0.19775094247018107
+word_count,whole,ALL,All Stances,whole,0.0008,0.0018,-0.5949,-0.2779,medium,small,False,Cliff's delta,small,yes,-0.7036685344525412,0.7036685344525412
+std_word_length,whole,ALL,All Stances,whole,0.0,0.0,0.8067,0.4201,large,medium,False,Cliff's delta,medium,yes,-0.16236133572976577,0.16236133572976577
+type_token_ratio,whole,ALL,All Stances,whole,0.0012,0.0286,-0.4011,-0.1942,medium,small,False,Cliff's delta,small,yes,-0.2101691831857331,0.2101691831857331
+stopword_ratio,whole,ALL,All Stances,whole,0.0,0.0,-0.8226,-0.4571,large,medium,False,Cliff's delta,medium,yes,-0.38034845349613944,0.38034845349613944
+noun_ratio,whole,ALL,All Stances,whole,0.0,0.0001,0.6253,0.3443,medium,medium,False,Cliff's delta,medium,yes,-0.20955864942102498,0.20955864942102498
+verb_ratio,whole,ALL,All Stances,whole,0.0,0.0,-0.8435,-0.4552,large,medium,False,Cliff's delta,medium,yes,-0.2653117547031783,0.2653117547031783
+adv_ratio,whole,ALL,All Stances,whole,0.0378,0.0006,-0.2823,-0.2792,small,small,False,Cliff's delta,small,yes,-0.1463977702138097,0.1463977702138097
+sentence_length_variation,whole,ALL,All Stances,whole,0.0001,0.0,-0.7255,-0.3897,large,medium,False,Cliff's delta,medium,yes,-0.1253444394849895,0.1253444394849895
+fear,whole,ALL,All Stances,whole,0.0016,0.0011,-0.5376,-0.2906,medium,small,False,Cliff's delta,small,yes,-0.3398067229238637,0.3398067229238637
+surprise,whole,ALL,All Stances,whole,0.626,0.0004,0.083,0.3138,small,small,False,Cliff's delta,small,yes,-0.19775094247018107,0.19775094247018107
+punctuation_density,whole,ALL,AGAINST,whole,0.0043,0.0011,-0.2975,-0.186,small,small,False,Cliff's delta,small,yes,-0.27575900186005003,0.27575900186005003
+sentiment_polarity,whole,ALL,AGAINST,whole,0.0133,0.0041,-0.2471,-0.1609,small,small,False,Cliff's delta,small,yes,-0.13979348080978327,0.13979348080978327
+adj_ratio,whole,ALL,AGAINST,whole,0.0293,0.0166,-0.2471,-0.1517,small,small,False,Cliff's delta,small,yes,-0.28673688308032935,0.28673688308032935
+sentiment_polarity,whole,ALL,AGAINST,whole,0.0001,0.0005,0.3921,0.2188,medium,small,False,Cliff's delta,small,yes,-0.13979348080978327,0.13979348080978327
+std_word_length,whole,ALL,AGAINST,whole,0.0,0.0,0.8067,0.4201,large,medium,False,Cliff's delta,medium,yes,-0.17695198123350042,0.17695198123350042
+punctuation_density,whole,ALL,AGAINST,whole,0.0,0.0,0.9159,0.4957,large,large,False,Cliff's delta,large,yes,-0.27575900186005003,0.27575900186005003
+noun_ratio,whole,ALL,AGAINST,whole,0.0,0.0001,0.6253,0.3443,medium,medium,False,Cliff's delta,medium,yes,-0.29540581523180737,0.29540581523180737
+verb_ratio,whole,ALL,AGAINST,whole,0.0,0.0,-0.8435,-0.4552,large,medium,False,Cliff's delta,medium,yes,-0.1459359582502464,0.1459359582502464
+function_word_ratio,whole,ALL,AGAINST,whole,0.0,0.0,-0.6491,-0.378,medium,medium,False,Cliff's delta,medium,yes,-0.2607283376909348,0.2607283376909348
+sentence_length_variation,whole,ALL,AGAINST,whole,0.0001,0.0,-0.7255,-0.3897,large,medium,False,Cliff's delta,medium,yes,-0.11188356510805784,0.11188356510805784
+certainty_adverbs_count,whole,ALL,AGAINST,whole,0.0662,0.0167,-0.3144,-0.126,medium,negligible,False,Cliff's delta,negligible,yes,-0.13917493104460316,0.13917493104460316
+anger,whole,ALL,FAVOR,whole,0.0002,0.1967,0.2923,0.0734,small,negligible,False,Cliff's delta,negligible,yes,-0.7372541350448896,0.7372541350448896
+disgust,whole,ALL,FAVOR,whole,0.0006,0.0002,0.1645,0.2114,small,small,False,Cliff's delta,small,yes,-0.33244436126642796,0.33244436126642796
+surprise,whole,ALL,FAVOR,whole,0.0782,0.0014,-0.1763,-0.1816,small,small,False,Cliff's delta,small,yes,-0.41575321518924696,0.41575321518924696
+type_token_ratio,whole,ALL,FAVOR,whole,0.0372,0.0634,-0.2197,-0.1178,small,negligible,False,Cliff's delta,negligible,yes,-0.12949859834402197,0.12949859834402197
+adj_ratio,whole,ALL,FAVOR,whole,0.0293,0.0166,-0.2471,-0.1517,small,small,False,Cliff's delta,small,yes,-0.18715165950120835,0.18715165950120835
+adv_ratio,whole,ALL,FAVOR,whole,0.0172,0.0058,-0.2616,-0.1717,small,small,False,Cliff's delta,small,yes,-0.24915034092211652,0.24915034092211652
+anger,whole,ALL,FAVOR,whole,0.0006,0.0003,-0.4944,-0.2291,medium,small,False,Cliff's delta,small,yes,-0.7372541350448896,0.7372541350448896
+disgust,whole,ALL,FAVOR,whole,0.0461,0.0116,-0.4306,-0.1601,medium,small,False,Cliff's delta,small,yes,-0.33244436126642796,0.33244436126642796
+surprise,whole,ALL,FAVOR,whole,0.5087,0.0015,-0.0984,0.2015,small,small,False,Cliff's delta,small,yes,-0.41575321518924696,0.41575321518924696
+type_token_ratio,whole,ALL,FAVOR,whole,0.0012,0.0286,-0.4011,-0.1942,medium,small,False,Cliff's delta,small,yes,-0.12949859834402197,0.12949859834402197
+stopword_ratio,whole,ALL,FAVOR,whole,0.0,0.0,-0.8226,-0.4571,large,medium,False,Cliff's delta,medium,yes,-0.4824753655206338,0.4824753655206338
+verb_ratio,whole,ALL,FAVOR,whole,0.0,0.0,-0.8435,-0.4552,large,medium,False,Cliff's delta,medium,yes,-0.15639990305438445,0.15639990305438445
+adv_ratio,whole,ALL,FAVOR,whole,0.0378,0.0006,-0.2823,-0.2792,small,small,False,Cliff's delta,small,yes,-0.24915034092211652,0.24915034092211652
+fear,whole,ALL,FAVOR,whole,0.0016,0.0011,-0.5376,-0.2906,medium,small,False,Cliff's delta,small,yes,-0.7290661686782073,0.7290661686782073
+surprise,whole,ALL,FAVOR,whole,0.626,0.0004,0.083,0.3138,small,small,False,Cliff's delta,small,yes,-0.41575321518924696,0.41575321518924696
+subordinate_clause_ratio,whole,ALL,NONE,whole,0.0209,0.068,0.2046,0.1022,small,negligible,False,Cliff's delta,negligible,yes,-0.18227168443110586,0.18227168443110586
+anger,whole,ALL,NONE,whole,0.0002,0.1967,0.2923,0.0734,small,negligible,False,Cliff's delta,negligible,yes,-0.16503122632302591,0.16503122632302591
+certainty_verbs_count,whole,ALL,NONE,whole,0.0334,0.0122,0.2069,0.1282,small,negligible,False,Cliff's delta,negligible,yes,-0.6606546873144677,0.6606546873144677
+anger,whole,ALL,NONE,whole,0.0006,0.0003,-0.4944,-0.2291,medium,small,False,Cliff's delta,small,yes,-0.16503122632302591,0.16503122632302591
+certainty_verbs_count,whole,ALL,NONE,whole,0.0499,0.1048,0.194,0.0949,small,negligible,False,Cliff's delta,negligible,yes,-0.6606546873144677,0.6606546873144677
+sentence_count,whole,ALL,NONE,whole,0.0,0.0,-0.8121,-0.3763,large,medium,False,Cliff's delta,medium,yes,-0.1703563181979644,0.1703563181979644
+stopword_ratio,whole,ALL,NONE,whole,0.0,0.0,-0.8226,-0.4571,large,medium,False,Cliff's delta,medium,yes,-0.9424607761320171,0.9424607761320171
+noun_ratio,whole,ALL,NONE,whole,0.0,0.0001,0.6253,0.3443,medium,medium,False,Cliff's delta,medium,yes,-0.47915997578224206,0.47915997578224206
+verb_ratio,whole,ALL,NONE,whole,0.0,0.0,-0.8435,-0.4552,large,medium,False,Cliff's delta,medium,yes,-0.44260133392291723,0.44260133392291723
+punctuation_usage,whole,ALL,NONE,whole,0.0411,0.0026,-0.32,-0.2563,medium,small,False,Cliff's delta,small,yes,-0.2753850784181521,0.2753850784181521
+subordinate_clause_ratio,whole,ALL,NONE,whole,0.0006,0.0001,-0.6507,-0.3126,medium,small,False,Cliff's delta,small,yes,-0.18227168443110586,0.18227168443110586
+fear,whole,ALL,NONE,whole,0.0016,0.0011,-0.5376,-0.2906,medium,small,False,Cliff's delta,small,yes,-0.5723660930012275,0.5723660930012275
+certainty_adverbs_count,whole,ALL,NONE,whole,0.0662,0.0167,-0.3144,-0.126,medium,negligible,False,Cliff's delta,negligible,yes,-0.21697027854944145,0.21697027854944145
+certainty_verbs_count,whole,ALL,NONE,whole,0.0,0.0,-0.8531,-0.35,large,medium,False,Cliff's delta,medium,yes,-0.6606546873144677,0.6606546873144677
+doubt_adverbs_count,whole,ALL,NONE,whole,0.0062,0.0003,-0.5492,-0.2091,medium,small,False,Cliff's delta,small,yes,-0.33672531194305344,0.33672531194305344
+N_ratio,whole,ALL,NONE,whole,0.1,0.0488,-0.3966,-0.062,medium,negligible,False,Cliff's delta,negligible,yes,-0.11144918774002728,0.11144918774002728

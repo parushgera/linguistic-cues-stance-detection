@@ -1,0 +1,9 @@
+feature,dataset,target,stance,source,t_pvalue,u_pvalue,cohens_d,cliffs_delta,cohen_strength,cliff_strength,distributions_normal,preferred_effect,preferred_strength,significant,coefficient,abs_coef
+word_count,whole,ALL,All Stances,whole,0.179,0.1823,0.1484,0.0846,small,negligible,False,Cliff's delta,negligible,no,0.7034002181206821,0.7034002181206821
+fear,whole,ALL,FAVOR,whole,0.0953,0.1823,-0.1592,-0.0758,small,negligible,False,Cliff's delta,negligible,no,0.7290095554030631,0.7290095554030631
+fear,whole,ALL,FAVOR,whole,0.7564,0.5951,-0.0338,-0.0337,small,negligible,False,Cliff's delta,negligible,no,0.7290095554030631,0.7290095554030631
+anger,whole,ALL,FAVOR,whole,0.8598,0.2259,-0.0304,0.1078,small,negligible,False,Cliff's delta,negligible,no,0.7372324808918549,0.7372324808918549
+stopword_ratio,whole,ALL,NONE,whole,0.2866,0.2481,0.1138,0.0656,small,negligible,True,Cohen's d,small,no,0.9424192885048075,0.9424192885048075
+fear,whole,ALL,NONE,whole,0.0953,0.1823,-0.1592,-0.0758,small,negligible,False,Cliff's delta,negligible,no,0.5723754493593953,0.5723754493593953
+stopword_ratio,whole,ALL,NONE,whole,0.275,0.279,-0.1146,-0.0687,small,negligible,False,Cliff's delta,negligible,no,0.9424192885048075,0.9424192885048075
+fear,whole,ALL,NONE,whole,0.7564,0.5951,-0.0338,-0.0337,small,negligible,False,Cliff's delta,negligible,no,0.5723754493593953,0.5723754493593953

@@ -1,0 +1,12 @@
+Feature,LR Coef,Significant,Effect Size,Impact,Max Misclass Rate,Stance
+word_count,+0.704,no,Cliff's delta (negligible),↑ Misclass,"42.9% (NONE: (29.0, 67.0])",NONE
+stopword_ratio,+0.380,no,Cohen's d (small),↑ Misclass,"39.7% (NONE: (0.338, 0.571])",NONE
+fear,+0.340,no,Cliff's delta (negligible),↑ Misclass,"44.8% (NONE: (0.824, 0.995])",NONE
+verb_ratio,+0.265,no,Cliff's delta (negligible),↑ Misclass,"44.4% (NONE: (0.167, 0.364])",NONE
+adj_ratio,+0.234,no,Cliff's delta (negligible),↑ Misclass,"27.7% (NONE: (-0.001, 0.0588])",NONE
+type_token_ratio,+0.210,no,Cliff's delta (negligible),↑ Misclass,"36.2% (NONE: (0.75, 0.852])",NONE
+noun_ratio,+0.210,no,Cliff's delta (negligible),↑ Misclass,"36.2% (NONE: (0.281, 0.364])",NONE
+std_word_length,+0.162,no,Cliff's delta (negligible),↑ Misclass,"39.7% (NONE: (1.5990000000000002, 2.77])",NONE
+anger,+0.151,no,Cliff's delta (negligible),↑ Misclass,"33.3% (NONE: (0.0183, 0.078])",NONE
+adv_ratio,+0.146,no,Cliff's delta (negligible),↑ Misclass,"34.5% (NONE: (0.0553, 0.286])",NONE
+sentence_length_variation,+0.125,no,Cliff's delta (negligible),↑ Misclass,"48.3% (NONE: (3.054, 14.5])",NONE

@@ -1,0 +1,12 @@
+{
+    "best_trial_number": 167,
+    "best_f1_score": 0.6594909279724354,
+    "best_parameters": {
+        "epochs": 74,
+        "batch_size": 64,
+        "lr": 0.0009939562750558677,
+        "hidden_size": 512,
+        "dropout": 0.18500243689612952,
+        "num_layers": 2
+    }
+}

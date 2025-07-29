@@ -1,0 +1,294 @@
+Running experiment: whole_whole_coef-negative_sig-no
+I am using whole setting and whole dataset 
+=== Logistic Regression Summary ===
+Confusion matrix (All Stances):
+[[1416    4]
+ [ 274    1]]
+
+[All Stances] Accuracy: 0.8330
+  hedge_C_count: -0.7537
+  avg_word_length: -0.2294
+  certainty_adjectives_count: -0.2167
+
+Confusion matrix (AGAINST):
+[[706   3]
+ [120   1]]
+
+[AGAINST] Accuracy: 0.8434
+  sadness: -0.3473
+  anger: -0.3272
+  disgust: -0.3262
+  avg_word_length: -0.3117
+
+Confusion matrix (FAVOR):
+[[531   6]
+ [ 87  11]]
+
+[FAVOR] Accuracy: 0.8252
+  pronoun_ratio: -0.3905
+  hedge_C_count: -0.3124
+  subordinate_clause_ratio: -0.2156
+
+Confusion matrix (NONE):
+[[165   9]
+ [ 21  35]]
+
+[NONE] Accuracy: 0.7348
+  function_word_ratio: -0.8658
+  punctuation_density: -0.5581
+  std_word_length: -0.4063
+  pronoun_ratio: -0.3644
+  doubt_adjectives_count: -0.2968
+  avg_word_length: -0.2424
+  certainty_adjectives_count: -0.2322
+
+=== Features selected for Quartile Analysis (12 total) ===
+  avg_word_length
+  certainty_adjectives_count
+  hedge_C_count
+  sadness
+  anger
+  disgust
+  pronoun_ratio
+  subordinate_clause_ratio
+  std_word_length
+  function_word_ratio
+  doubt_adjectives_count
+  punctuation_density
+
+--- avg_word_length Quartile Analysis ---
+All Stances:
+  (2.285, 3.779]: Correct=0.854, Mis=0.146
+  (3.779, 4.132]: Correct=0.802, Mis=0.198
+  (4.132, 4.538]: Correct=0.837, Mis=0.163
+  (4.538, 7.0]: Correct=0.858, Mis=0.142
+AGAINST:
+  (2.666, 3.74]: Correct=0.851, Mis=0.149
+  (3.74, 4.082]: Correct=0.865, Mis=0.135
+  (4.082, 4.429]: Correct=0.836, Mis=0.164
+  (4.429, 7.0]: Correct=0.866, Mis=0.134
+FAVOR:
+  (2.4370000000000003, 3.813]: Correct=0.855, Mis=0.145
+  (3.813, 4.143]: Correct=0.863, Mis=0.137
+  (4.143, 4.517]: Correct=0.840, Mis=0.160
+  (4.517, 6.588]: Correct=0.824, Mis=0.176
+NONE:
+  (2.285, 3.901]: Correct=0.707, Mis=0.293
+  (3.901, 4.415]: Correct=0.579, Mis=0.421
+  (4.415, 5.396]: Correct=0.772, Mis=0.228
+  (5.396, 6.964]: Correct=0.966, Mis=0.034
+
+--- certainty_adjectives_count Quartile Analysis ---
+All Stances:
+  (-0.001, 1.0]: Correct=0.829, Mis=0.171
+  (1.0, 5.0]: Correct=0.925, Mis=0.075
+AGAINST:
+  (-0.001, 1.0]: Correct=0.851, Mis=0.149
+  (1.0, 3.0]: Correct=0.900, Mis=0.100
+FAVOR:
+  (-0.001, 1.0]: Correct=0.831, Mis=0.169
+  (1.0, 5.0]: Correct=0.941, Mis=0.059
+NONE:
+  (-0.001, 2.0]: Correct=0.757, Mis=0.243
+
+--- hedge_C_count Quartile Analysis ---
+All Stances:
+  (1.999, 15.0]: Correct=0.828, Mis=0.172
+  (15.0, 21.0]: Correct=0.821, Mis=0.179
+  (21.0, 32.0]: Correct=0.846, Mis=0.154
+  (32.0, 59.0]: Correct=0.861, Mis=0.139
+AGAINST:
+  (4.999, 16.0]: Correct=0.789, Mis=0.211
+  (16.0, 21.0]: Correct=0.865, Mis=0.135
+  (21.0, 31.0]: Correct=0.893, Mis=0.107
+  (31.0, 54.0]: Correct=0.881, Mis=0.119
+FAVOR:
+  (5.999, 17.0]: Correct=0.846, Mis=0.154
+  (17.0, 24.0]: Correct=0.825, Mis=0.175
+  (24.0, 36.0]: Correct=0.824, Mis=0.176
+  (36.0, 59.0]: Correct=0.890, Mis=0.110
+NONE:
+  (1.999, 10.0]: Correct=0.957, Mis=0.043
+  (10.0, 13.0]: Correct=0.863, Mis=0.137
+  (13.0, 20.0]: Correct=0.644, Mis=0.356
+  (20.0, 49.0]: Correct=0.510, Mis=0.490
+
+--- sadness Quartile Analysis ---
+All Stances:
+  (-0.00022600000000000007, 0.00655]: Correct=0.830, Mis=0.170
+  (0.00655, 0.016]: Correct=0.821, Mis=0.179
+  (0.016, 0.0489]: Correct=0.835, Mis=0.165
+  (0.0489, 0.989]: Correct=0.866, Mis=0.134
+AGAINST:
+  (-0.00021799999999999999, 0.00561]: Correct=0.870, Mis=0.130
+  (0.00561, 0.0152]: Correct=0.855, Mis=0.145
+  (0.0152, 0.0491]: Correct=0.797, Mis=0.203
+  (0.0491, 0.989]: Correct=0.894, Mis=0.106
+FAVOR:
+  (-0.00022600000000000007, 0.00663]: Correct=0.836, Mis=0.164
+  (0.00663, 0.0134]: Correct=0.836, Mis=0.164
+  (0.0134, 0.0345]: Correct=0.835, Mis=0.165
+  (0.0345, 0.986]: Correct=0.874, Mis=0.126
+NONE:
+  (0.0002099999999999999, 0.0121]: Correct=0.586, Mis=0.414
+  (0.0121, 0.0328]: Correct=0.807, Mis=0.193
+  (0.0328, 0.0762]: Correct=0.860, Mis=0.140
+  (0.0762, 0.986]: Correct=0.776, Mis=0.224
+
+--- anger Quartile Analysis ---
+All Stances:
+  (-0.000273, 0.0238]: Correct=0.870, Mis=0.130
+  (0.0238, 0.0772]: Correct=0.828, Mis=0.172
+  (0.0772, 0.244]: Correct=0.809, Mis=0.191
+  (0.244, 0.995]: Correct=0.844, Mis=0.156
+AGAINST:
+  (-0.000273, 0.03]: Correct=0.880, Mis=0.120
+  (0.03, 0.0992]: Correct=0.807, Mis=0.193
+  (0.0992, 0.353]: Correct=0.816, Mis=0.184
+  (0.353, 0.995]: Correct=0.913, Mis=0.087
+FAVOR:
+  (-0.00017200000000000006, 0.0205]: Correct=0.893, Mis=0.107
+  (0.0205, 0.0589]: Correct=0.887, Mis=0.113
+  (0.0589, 0.175]: Correct=0.829, Mis=0.171
+  (0.175, 0.989]: Correct=0.774, Mis=0.226
+NONE:
+  (-2.9999999999999645e-06, 0.0183]: Correct=0.759, Mis=0.241
+  (0.0183, 0.078]: Correct=0.667, Mis=0.333
+  (0.078, 0.163]: Correct=0.807, Mis=0.193
+  (0.163, 0.981]: Correct=0.793, Mis=0.207
+
+--- disgust Quartile Analysis ---
+All Stances:
+  (-0.000895, 0.000532]: Correct=0.814, Mis=0.186
+  (0.000532, 0.001]: Correct=0.828, Mis=0.172
+  (0.001, 0.00232]: Correct=0.849, Mis=0.151
+  (0.00232, 0.989]: Correct=0.861, Mis=0.139
+AGAINST:
+  (-0.000895, 0.000617]: Correct=0.808, Mis=0.192
+  (0.000617, 0.00127]: Correct=0.826, Mis=0.174
+  (0.00127, 0.00316]: Correct=0.855, Mis=0.145
+  (0.00316, 0.989]: Correct=0.928, Mis=0.072
+FAVOR:
+  (-0.000883, 0.000486]: Correct=0.881, Mis=0.119
+  (0.000486, 0.000908]: Correct=0.862, Mis=0.138
+  (0.000908, 0.00196]: Correct=0.880, Mis=0.120
+  (0.00196, 0.963]: Correct=0.761, Mis=0.239
+NONE:
+  (-0.000872, 0.00045]: Correct=0.690, Mis=0.310
+  (0.00045, 0.000693]: Correct=0.702, Mis=0.298
+  (0.000693, 0.00106]: Correct=0.842, Mis=0.158
+  (0.00106, 0.119]: Correct=0.793, Mis=0.207
+
+--- pronoun_ratio Quartile Analysis ---
+All Stances:
+  (-0.001, 0.0536]: Correct=0.836, Mis=0.164
+  (0.0536, 0.0938]: Correct=0.833, Mis=0.167
+  (0.0938, 0.286]: Correct=0.846, Mis=0.154
+AGAINST:
+  (-0.001, 0.0223]: Correct=0.817, Mis=0.183
+  (0.0223, 0.0588]: Correct=0.929, Mis=0.071
+  (0.0588, 0.0995]: Correct=0.842, Mis=0.158
+  (0.0995, 0.278]: Correct=0.827, Mis=0.173
+FAVOR:
+  (-0.001, 0.0211]: Correct=0.824, Mis=0.176
+  (0.0211, 0.0556]: Correct=0.821, Mis=0.179
+  (0.0556, 0.0934]: Correct=0.839, Mis=0.161
+  (0.0934, 0.267]: Correct=0.899, Mis=0.101
+NONE:
+  (-0.001, 0.0282]: Correct=0.809, Mis=0.191
+  (0.0282, 0.0769]: Correct=0.710, Mis=0.290
+  (0.0769, 0.286]: Correct=0.698, Mis=0.302
+
+--- subordinate_clause_ratio Quartile Analysis ---
+All Stances:
+  (-0.001, 0.04]: Correct=0.833, Mis=0.167
+  (0.04, 0.0769]: Correct=0.836, Mis=0.164
+  (0.0769, 0.273]: Correct=0.849, Mis=0.151
+AGAINST:
+  (-0.001, 0.0455]: Correct=0.842, Mis=0.158
+  (0.0455, 0.0833]: Correct=0.836, Mis=0.164
+  (0.0833, 0.273]: Correct=0.898, Mis=0.102
+FAVOR:
+  (-0.001, 0.0408]: Correct=0.840, Mis=0.160
+  (0.0408, 0.075]: Correct=0.843, Mis=0.157
+  (0.075, 0.192]: Correct=0.861, Mis=0.139
+NONE:
+  (-0.001, 0.0645]: Correct=0.792, Mis=0.208
+  (0.0645, 0.192]: Correct=0.649, Mis=0.351
+
+--- std_word_length Quartile Analysis ---
+All Stances:
+  (1.171, 2.454]: Correct=0.844, Mis=0.156
+  (2.454, 2.936]: Correct=0.849, Mis=0.151
+  (2.936, 3.462]: Correct=0.825, Mis=0.175
+  (3.462, 15.43]: Correct=0.833, Mis=0.167
+AGAINST:
+  (1.171, 2.352]: Correct=0.889, Mis=0.111
+  (2.352, 2.775]: Correct=0.870, Mis=0.130
+  (2.775, 3.276]: Correct=0.826, Mis=0.174
+  (3.276, 15.43]: Correct=0.832, Mis=0.168
+FAVOR:
+  (1.32, 2.548]: Correct=0.811, Mis=0.189
+  (2.548, 2.999]: Correct=0.906, Mis=0.094
+  (2.999, 3.473]: Correct=0.848, Mis=0.152
+  (3.473, 7.34]: Correct=0.818, Mis=0.182
+NONE:
+  (1.5990000000000002, 2.77]: Correct=0.603, Mis=0.397
+  (2.77, 3.452]: Correct=0.702, Mis=0.298
+  (3.452, 5.157]: Correct=0.719, Mis=0.281
+  (5.157, 8.482]: Correct=1.000, Mis=0.000
+
+--- function_word_ratio Quartile Analysis ---
+All Stances:
+  (-0.001, 0.292]: Correct=0.861, Mis=0.139
+  (0.292, 0.382]: Correct=0.805, Mis=0.195
+  (0.382, 0.462]: Correct=0.856, Mis=0.144
+  (0.462, 0.8]: Correct=0.828, Mis=0.172
+AGAINST:
+  (-0.001, 0.308]: Correct=0.827, Mis=0.173
+  (0.308, 0.391]: Correct=0.850, Mis=0.150
+  (0.391, 0.466]: Correct=0.894, Mis=0.106
+  (0.466, 0.727]: Correct=0.846, Mis=0.154
+FAVOR:
+  (0.042499999999999996, 0.308]: Correct=0.856, Mis=0.144
+  (0.308, 0.39]: Correct=0.842, Mis=0.158
+  (0.39, 0.462]: Correct=0.849, Mis=0.151
+  (0.462, 0.673]: Correct=0.834, Mis=0.166
+NONE:
+  (-0.001, 0.143]: Correct=0.966, Mis=0.034
+  (0.143, 0.301]: Correct=0.768, Mis=0.232
+  (0.301, 0.4]: Correct=0.617, Mis=0.383
+  (0.4, 0.8]: Correct=0.673, Mis=0.327
+
+--- doubt_adjectives_count Quartile Analysis ---
+All Stances:
+  (-0.001, 2.0]: Correct=0.838, Mis=0.162
+AGAINST:
+  (-0.001, 2.0]: Correct=0.854, Mis=0.146
+FAVOR:
+  (-0.001, 2.0]: Correct=0.846, Mis=0.154
+NONE:
+  (-0.001, 2.0]: Correct=0.757, Mis=0.243
+
+--- punctuation_density Quartile Analysis ---
+All Stances:
+  (-0.001, 0.16]: Correct=0.855, Mis=0.145
+  (0.16, 0.222]: Correct=0.830, Mis=0.170
+  (0.222, 0.294]: Correct=0.845, Mis=0.155
+  (0.294, 1.0]: Correct=0.821, Mis=0.179
+AGAINST:
+  (-0.001, 0.158]: Correct=0.909, Mis=0.091
+  (0.158, 0.214]: Correct=0.858, Mis=0.142
+  (0.214, 0.277]: Correct=0.882, Mis=0.118
+  (0.277, 1.0]: Correct=0.769, Mis=0.231
+FAVOR:
+  (-0.001, 0.154]: Correct=0.849, Mis=0.151
+  (0.154, 0.213]: Correct=0.836, Mis=0.164
+  (0.213, 0.28]: Correct=0.868, Mis=0.132
+  (0.28, 0.55]: Correct=0.829, Mis=0.171
+NONE:
+  (-0.001, 0.2]: Correct=0.542, Mis=0.458
+  (0.2, 0.298]: Correct=0.696, Mis=0.304
+  (0.298, 0.5]: Correct=0.810, Mis=0.190
+  (0.5, 0.846]: Correct=0.982, Mis=0.018
+

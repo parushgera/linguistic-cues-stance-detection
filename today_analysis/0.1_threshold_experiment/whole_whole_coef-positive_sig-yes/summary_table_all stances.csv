@@ -1,0 +1,8 @@
+Feature,LR Coef,Significant,Effect Size,Impact,Max Misclass Rate,Stance
+hedge_C_count,+0.754,yes,Cliff's delta (small),↑ Correct,"49.0% (NONE: (20.0, 49.0])",NONE
+avg_word_length,+0.229,yes,Cliff's delta (medium),↑ Correct,"42.1% (NONE: (3.901, 4.415])",NONE
+certainty_adjectives_count,+0.217,yes,Cliff's delta (negligible),↑ Correct,"24.3% (NONE: (-0.001, 2.0])",NONE
+pronoun_ratio,+0.172,yes,Cliff's delta (negligible),↑ Correct,"30.2% (NONE: (0.0769, 0.286])",NONE
+readability_score,+0.158,yes,Cliff's delta (small),↑ Correct,"40.0% (NONE: (4.8, 8.55])",NONE
+function_word_ratio,+0.134,yes,Cliff's delta (medium),↑ Correct,"38.3% (NONE: (0.301, 0.4])",NONE
+subordinate_clause_ratio,+0.114,yes,Cliff's delta (negligible),↑ Correct,"35.1% (NONE: (0.0645, 0.192])",NONE

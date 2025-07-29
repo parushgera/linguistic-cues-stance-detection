@@ -1,0 +1,337 @@
+feature,dataset,target,stance,source,t_pvalue,u_pvalue,cohens_d,cliffs_delta,cohen_strength,cliff_strength,distributions_normal,preferred_effect,preferred_strength,significant
+word_count,whole,ALL,AGAINST,whole,0.01,0.0042,0.2504,0.1628,small,small,False,Cliff's delta,small,yes
+punctuation_density,whole,ALL,AGAINST,whole,0.0043,0.0011,-0.2975,-0.186,small,small,False,Cliff's delta,small,yes
+subordinate_clause_ratio,whole,ALL,AGAINST,whole,0.0209,0.068,0.2046,0.1022,small,negligible,False,Cliff's delta,negligible,yes
+sentiment_polarity,whole,ALL,AGAINST,whole,0.0133,0.0041,-0.2471,-0.1609,small,small,False,Cliff's delta,small,yes
+anger,whole,ALL,AGAINST,whole,0.0002,0.1967,0.2923,0.0734,small,negligible,False,Cliff's delta,negligible,yes
+joy,whole,ALL,AGAINST,whole,0.022,0.0,-0.2887,-0.2984,small,small,False,Cliff's delta,small,yes
+sadness,whole,ALL,AGAINST,whole,0.0052,0.6459,0.2016,0.0261,small,negligible,False,Cliff's delta,negligible,yes
+disgust,whole,ALL,AGAINST,whole,0.0006,0.0002,0.1645,0.2114,small,small,False,Cliff's delta,small,yes
+surprise,whole,ALL,AGAINST,whole,0.0782,0.0014,-0.1763,-0.1816,small,small,False,Cliff's delta,small,yes
+certainty_verbs_count,whole,ALL,AGAINST,whole,0.0334,0.0122,0.2069,0.1282,small,negligible,False,Cliff's delta,negligible,yes
+hedge_C_count,whole,ALL,AGAINST,whole,0.0022,0.0007,0.2987,0.1919,small,small,False,Cliff's delta,small,yes
+type_token_ratio,whole,ALL,FAVOR,whole,0.0372,0.0634,-0.2197,-0.1178,small,negligible,False,Cliff's delta,negligible,yes
+adj_ratio,whole,ALL,FAVOR,whole,0.0293,0.0166,-0.2471,-0.1517,small,small,False,Cliff's delta,small,yes
+adv_ratio,whole,ALL,FAVOR,whole,0.0172,0.0058,-0.2616,-0.1717,small,small,False,Cliff's delta,small,yes
+pronoun_ratio,whole,ALL,FAVOR,whole,0.0016,0.026,0.2867,0.1404,small,negligible,False,Cliff's delta,negligible,yes
+sentiment_polarity,whole,ALL,FAVOR,whole,0.0001,0.0005,0.3921,0.2188,medium,small,False,Cliff's delta,small,yes
+anger,whole,ALL,FAVOR,whole,0.0006,0.0003,-0.4944,-0.2291,medium,small,False,Cliff's delta,small,yes
+joy,whole,ALL,FAVOR,whole,0.0,0.0,0.4621,0.4095,medium,medium,False,Cliff's delta,medium,yes
+disgust,whole,ALL,FAVOR,whole,0.0461,0.0116,-0.4306,-0.1601,medium,small,False,Cliff's delta,small,yes
+surprise,whole,ALL,FAVOR,whole,0.5087,0.0015,-0.0984,0.2015,small,small,False,Cliff's delta,small,yes
+certainty_verbs_count,whole,ALL,FAVOR,whole,0.0499,0.1048,0.194,0.0949,small,negligible,False,Cliff's delta,negligible,yes
+certainty_adjectives_count,whole,ALL,FAVOR,whole,0.0025,0.0448,0.2645,0.1118,small,negligible,False,Cliff's delta,negligible,yes
+word_count,whole,ALL,NONE,whole,0.0008,0.0018,-0.5949,-0.2779,medium,small,False,Cliff's delta,small,yes
+sentence_count,whole,ALL,NONE,whole,0.0,0.0,-0.8121,-0.3763,large,medium,False,Cliff's delta,medium,yes
+avg_word_length,whole,ALL,NONE,whole,0.0,0.0,0.6902,0.3829,medium,medium,False,Cliff's delta,medium,yes
+std_word_length,whole,ALL,NONE,whole,0.0,0.0,0.8067,0.4201,large,medium,False,Cliff's delta,medium,yes
+type_token_ratio,whole,ALL,NONE,whole,0.0012,0.0286,-0.4011,-0.1942,medium,small,False,Cliff's delta,small,yes
+hapax_legomena,whole,ALL,NONE,whole,0.0254,0.0408,-0.3012,-0.1815,medium,small,False,Cliff's delta,small,yes
+stopword_ratio,whole,ALL,NONE,whole,0.0,0.0,-0.8226,-0.4571,large,medium,False,Cliff's delta,medium,yes
+punctuation_density,whole,ALL,NONE,whole,0.0,0.0,0.9159,0.4957,large,large,False,Cliff's delta,large,yes
+noun_ratio,whole,ALL,NONE,whole,0.0,0.0001,0.6253,0.3443,medium,medium,False,Cliff's delta,medium,yes
+verb_ratio,whole,ALL,NONE,whole,0.0,0.0,-0.8435,-0.4552,large,medium,False,Cliff's delta,medium,yes
+adv_ratio,whole,ALL,NONE,whole,0.0378,0.0006,-0.2823,-0.2792,small,small,False,Cliff's delta,small,yes
+function_word_ratio,whole,ALL,NONE,whole,0.0,0.0,-0.6491,-0.378,medium,medium,False,Cliff's delta,medium,yes
+punctuation_usage,whole,ALL,NONE,whole,0.0411,0.0026,-0.32,-0.2563,medium,small,False,Cliff's delta,small,yes
+readability_score,whole,ALL,NONE,whole,0.0,0.0012,0.608,0.2875,medium,small,False,Cliff's delta,small,yes
+sentence_length_variation,whole,ALL,NONE,whole,0.0001,0.0,-0.7255,-0.3897,large,medium,False,Cliff's delta,medium,yes
+subordinate_clause_ratio,whole,ALL,NONE,whole,0.0006,0.0001,-0.6507,-0.3126,medium,small,False,Cliff's delta,small,yes
+joy,whole,ALL,NONE,whole,0.0,0.0,0.5522,0.3994,medium,medium,False,Cliff's delta,medium,yes
+fear,whole,ALL,NONE,whole,0.0016,0.0011,-0.5376,-0.2906,medium,small,False,Cliff's delta,small,yes
+sadness,whole,ALL,NONE,whole,0.7357,0.0211,0.0531,0.205,small,small,False,Cliff's delta,small,yes
+surprise,whole,ALL,NONE,whole,0.626,0.0004,0.083,0.3138,small,small,False,Cliff's delta,small,yes
+certainty_adverbs_count,whole,ALL,NONE,whole,0.0662,0.0167,-0.3144,-0.126,medium,negligible,False,Cliff's delta,negligible,yes
+certainty_verbs_count,whole,ALL,NONE,whole,0.0,0.0,-0.8531,-0.35,large,medium,False,Cliff's delta,medium,yes
+doubt_adverbs_count,whole,ALL,NONE,whole,0.0062,0.0003,-0.5492,-0.2091,medium,small,False,Cliff's delta,small,yes
+hedges_score,whole,ALL,NONE,whole,0.0427,0.0169,-0.3796,-0.1207,medium,negligible,False,Cliff's delta,negligible,yes
+hedge_C_count,whole,ALL,NONE,whole,0.0,0.0,-0.8465,-0.5395,large,large,False,Cliff's delta,large,yes
+N_ratio,whole,ALL,NONE,whole,0.1,0.0488,-0.3966,-0.062,medium,negligible,False,Cliff's delta,negligible,yes
+sentence_count,covid,ALL,AGAINST,overall,0.0007,0.0049,0.7312,0.4006,large,medium,False,Cliff's delta,medium,yes
+type_token_ratio,covid,ALL,AGAINST,overall,0.0113,0.0288,-0.5237,-0.3188,medium,small,False,Cliff's delta,small,yes
+readability_score,covid,ALL,AGAINST,overall,0.0508,0.0224,-0.4295,-0.3331,medium,medium,False,Cliff's delta,medium,yes
+hedges_score,covid,ALL,AGAINST,overall,0.0463,0.0912,0.4191,0.187,medium,small,False,Cliff's delta,small,yes
+hedge_D_count,covid,ALL,AGAINST,overall,0.0133,0.2035,0.3229,0.0779,medium,negligible,False,Cliff's delta,negligible,yes
+hedge_E_count,covid,ALL,AGAINST,overall,0.0133,0.2035,0.3229,0.0779,medium,negligible,False,Cliff's delta,negligible,yes
+D_ratio,covid,ALL,AGAINST,overall,0.0146,0.2038,0.3183,0.0779,medium,negligible,False,Cliff's delta,negligible,yes
+E_ratio,covid,ALL,AGAINST,overall,0.0335,0.2038,0.2759,0.0779,small,negligible,False,Cliff's delta,negligible,yes
+adj_ratio,covid,ALL,FAVOR,overall,0.0574,0.0367,-0.5067,-0.3079,medium,small,False,Cliff's delta,small,yes
+hedge_D_count,covid,ALL,FAVOR,overall,0.0012,0.0761,0.4577,0.1429,medium,negligible,False,Cliff's delta,negligible,yes
+D_ratio,covid,ALL,FAVOR,overall,0.0013,0.0767,0.4538,0.1429,medium,negligible,False,Cliff's delta,negligible,yes
+word_count,covid,ALL,NONE,overall,0.0002,0.0,-0.6985,-0.4593,medium,medium,False,Cliff's delta,medium,yes
+sentence_count,covid,ALL,NONE,overall,0.0001,0.0,-1.1173,-0.4846,large,large,False,Cliff's delta,large,yes
+avg_word_length,covid,ALL,NONE,overall,0.0,0.0001,0.6911,0.4256,medium,medium,False,Cliff's delta,medium,yes
+std_word_length,covid,ALL,NONE,overall,0.0,0.0001,0.8038,0.4384,large,medium,False,Cliff's delta,medium,yes
+type_token_ratio,covid,ALL,NONE,overall,0.0288,0.0633,-0.3647,-0.2082,medium,small,False,Cliff's delta,small,yes
+stopword_ratio,covid,ALL,NONE,overall,0.0,0.0,-0.8975,-0.4951,large,large,False,Cliff's delta,large,yes
+punctuation_density,covid,ALL,NONE,overall,0.0,0.0,0.8769,0.4781,large,large,False,Cliff's delta,large,yes
+noun_ratio,covid,ALL,NONE,overall,0.0,0.0001,0.7505,0.4397,large,medium,False,Cliff's delta,medium,yes
+verb_ratio,covid,ALL,NONE,overall,0.0,0.0,-0.6844,-0.4685,medium,medium,False,Cliff's delta,medium,yes
+adv_ratio,covid,ALL,NONE,overall,0.2197,0.0015,-0.1721,-0.3261,small,small,False,Cliff's delta,small,yes
+pronoun_ratio,covid,ALL,NONE,overall,0.043,0.0061,-0.3544,-0.2928,medium,small,False,Cliff's delta,small,yes
+function_word_ratio,covid,ALL,NONE,overall,0.0,0.0001,-0.7097,-0.4535,large,medium,False,Cliff's delta,medium,yes
+punctuation_usage,covid,ALL,NONE,overall,0.0011,0.0,-0.7551,-0.5143,large,large,False,Cliff's delta,large,yes
+readability_score,covid,ALL,NONE,overall,0.0,0.0035,0.6705,0.3274,medium,small,False,Cliff's delta,small,yes
+sentence_length_variation,covid,ALL,NONE,overall,0.0,0.0,-0.9788,-0.5596,large,large,False,Cliff's delta,large,yes
+subordinate_clause_ratio,covid,ALL,NONE,overall,0.0105,0.0005,-0.5305,-0.3514,medium,medium,False,Cliff's delta,medium,yes
+sentiment_subjectivity,covid,ALL,NONE,overall,0.0,0.0,-0.8301,-0.4783,large,large,False,Cliff's delta,large,yes
+joy,covid,ALL,NONE,overall,0.0,0.0,0.6111,0.4733,medium,medium,False,Cliff's delta,medium,yes
+fear,covid,ALL,NONE,overall,0.0064,0.0022,-0.606,-0.3438,medium,medium,False,Cliff's delta,medium,yes
+surprise,covid,ALL,NONE,overall,0.001,0.0,0.4738,0.5047,medium,large,False,Cliff's delta,large,yes
+certainty_adverbs_count,covid,ALL,NONE,overall,0.0481,0.0078,-0.5987,-0.1764,medium,small,False,Cliff's delta,small,yes
+certainty_verbs_count,covid,ALL,NONE,overall,0.0571,0.0432,-0.4895,-0.17,medium,small,False,Cliff's delta,small,yes
+doubt_adverbs_count,covid,ALL,NONE,overall,0.0068,0.0,-0.7351,-0.3072,large,small,False,Cliff's delta,small,yes
+hedges_score,covid,ALL,NONE,overall,0.0009,0.0,-1.0125,-0.3181,large,small,False,Cliff's delta,small,yes
+hedge_C_count,covid,ALL,NONE,overall,0.0,0.0,-1.1121,-0.6106,large,large,False,Cliff's delta,large,yes
+hedge_E_count,covid,ALL,NONE,overall,0.1002,0.0096,-0.5115,-0.0996,medium,negligible,False,Cliff's delta,negligible,yes
+hedge_I_count,covid,ALL,NONE,overall,0.3248,0.0416,-0.4012,-0.0303,medium,negligible,False,Cliff's delta,negligible,yes
+hedge_N_count,covid,ALL,NONE,overall,0.0727,0.0007,-0.6774,-0.1543,medium,small,False,Cliff's delta,small,yes
+C_ratio,covid,ALL,NONE,overall,0.013,0.0,0.7915,0.2902,large,small,False,Cliff's delta,small,yes
+E_ratio,covid,ALL,NONE,overall,0.2219,0.0101,-0.2416,-0.099,small,negligible,False,Cliff's delta,negligible,yes
+I_ratio,covid,ALL,NONE,overall,0.3248,0.0416,-0.4012,-0.0303,medium,negligible,False,Cliff's delta,negligible,yes
+N_ratio,covid,ALL,NONE,overall,0.0643,0.0007,-0.714,-0.1543,large,small,False,Cliff's delta,small,yes
+avg_word_length,covid,face_masks,AGAINST,target,0.0209,0.0089,-1.5401,-0.7467,large,large,True,Cohen's d,large,yes
+std_word_length,covid,face_masks,AGAINST,target,0.0504,0.0187,-1.1791,-0.6533,large,large,True,Cohen's d,large,yes
+stopword_ratio,covid,face_masks,AGAINST,target,0.0187,0.005,1.8172,0.8,large,large,True,Cohen's d,large,yes
+noun_ratio,covid,face_masks,AGAINST,target,0.0966,0.038,-1.1615,-0.5933,large,large,False,Cliff's delta,large,yes
+adv_ratio,covid,face_masks,AGAINST,target,0.0,0.0065,1.3246,0.7733,large,large,False,Cliff's delta,large,yes
+function_word_ratio,covid,face_masks,AGAINST,target,0.0069,0.0016,2.1402,0.9,large,large,True,Cohen's d,large,yes
+readability_score,covid,face_masks,AGAINST,target,0.0705,0.0161,-1.3994,-0.6867,large,large,False,Cliff's delta,large,yes
+joy,covid,face_masks,AGAINST,target,0.0287,0.0216,0.4489,0.64,medium,large,False,Cliff's delta,large,yes
+fear,covid,face_masks,AGAINST,target,0.0805,0.0216,-1.2348,-0.64,large,large,False,Cliff's delta,large,yes
+disgust,covid,face_masks,AGAINST,target,0.1643,0.002,0.2779,0.8133,small,large,False,Cliff's delta,large,yes
+surprise,covid,face_masks,AGAINST,target,0.0061,0.0249,0.5769,0.6267,medium,large,False,Cliff's delta,large,yes
+certainty_adverbs_count,covid,face_masks,AGAINST,target,0.0089,0.249,0.5462,0.2333,medium,small,False,Cliff's delta,small,yes
+certainty_verbs_count,covid,face_masks,AGAINST,target,0.0002,0.061,0.8311,0.4667,large,medium,False,Cliff's delta,medium,yes
+hedges_score,covid,face_masks,AGAINST,target,0.0067,0.2514,0.5692,0.2333,medium,small,False,Cliff's delta,small,yes
+sentence_length_variation,covid,face_masks,FAVOR,target,0.0194,0.0331,0.9496,0.5329,large,large,True,Cohen's d,large,yes
+subordinate_clause_ratio,covid,face_masks,FAVOR,target,0.0174,0.0359,0.932,0.5132,large,large,False,Cliff's delta,large,yes
+type_token_ratio,covid,fauci,AGAINST,target,0.0287,0.0187,1.1268,0.55,large,large,False,Cliff's delta,large,yes
+hapax_legomena,covid,fauci,AGAINST,target,0.0211,0.017,1.0357,0.5583,large,large,True,Cohen's d,large,yes
+anger,covid,fauci,AGAINST,target,0.0208,0.0256,0.798,0.5167,large,large,False,Cliff's delta,large,yes
+word_count,covid,fauci,NONE,target,0.0115,0.0052,-1.4962,-0.6807,large,large,False,Cliff's delta,large,yes
+sentence_count,covid,fauci,NONE,target,0.0449,0.0174,-1.6441,-0.5588,large,large,False,Cliff's delta,large,yes
+adj_ratio,covid,fauci,NONE,target,0.0097,0.0167,0.8459,0.584,large,large,False,Cliff's delta,large,yes
+pronoun_ratio,covid,fauci,NONE,target,0.085,0.0393,-0.9344,-0.4916,large,large,False,Cliff's delta,large,yes
+doubt_adverbs_count,covid,fauci,NONE,target,0.0666,0.0047,-1.4646,-0.5504,large,large,False,Cliff's delta,large,yes
+doubt_adjectives_count,covid,fauci,NONE,target,0.0092,0.2031,0.5157,0.2059,medium,small,False,Cliff's delta,small,yes
+hedge_C_count,covid,fauci,NONE,target,0.0133,0.0093,-1.3101,-0.6345,large,large,False,Cliff's delta,large,yes
+hedge_E_count,covid,fauci,NONE,target,0.2167,0.0212,-1.0334,-0.2563,large,small,False,Cliff's delta,small,yes
+E_ratio,covid,fauci,NONE,target,0.4578,0.026,-0.2549,-0.2479,small,small,False,Cliff's delta,small,yes
+readability_score,covid,school_closures,AGAINST,target,0.0175,0.0247,-1.6791,-0.8056,large,large,True,Cohen's d,large,yes
+hedges_score,covid,school_closures,AGAINST,target,0.0174,0.0167,1.6426,0.8056,large,large,False,Cliff's delta,large,yes
+hedge_N_count,covid,school_closures,AGAINST,target,0.0391,0.0552,1.4857,0.6111,large,large,False,Cliff's delta,large,yes
+C_ratio,covid,school_closures,AGAINST,target,0.0116,0.0167,-2.0527,-0.8056,large,large,False,Cliff's delta,large,yes
+sentence_length_variation,covid,school_closures,FAVOR,target,0.0076,0.0702,0.8622,0.495,large,large,False,Cliff's delta,large,yes
+sadness,covid,school_closures,FAVOR,target,0.0113,0.249,0.5726,0.33,medium,medium,False,Cliff's delta,medium,yes
+surprise,covid,school_closures,FAVOR,target,0.0156,0.4075,0.4216,0.24,medium,small,False,Cliff's delta,small,yes
+doubt_adjectives_count,covid,school_closures,FAVOR,target,0.044,0.4865,0.3456,0.1,medium,negligible,False,Cliff's delta,negligible,yes
+hedges_score,covid,school_closures,FAVOR,target,0.0002,0.171,0.6783,0.3,medium,small,False,Cliff's delta,small,yes
+hedge_N_count,covid,school_closures,FAVOR,target,0.0032,0.2536,0.5211,0.225,medium,small,False,Cliff's delta,small,yes
+C_ratio,covid,school_closures,FAVOR,target,0.0008,0.1487,-0.6064,-0.325,medium,small,False,Cliff's delta,small,yes
+N_ratio,covid,school_closures,FAVOR,target,0.0085,0.2554,0.4605,0.225,medium,small,False,Cliff's delta,small,yes
+word_count,covid,school_closures,NONE,target,0.0459,0.0353,0.9841,0.55,large,large,True,Cohen's d,large,yes
+adv_ratio,covid,school_closures,NONE,target,0.0364,0.0628,0.771,0.4786,large,large,False,Cliff's delta,large,yes
+surprise,covid,school_closures,NONE,target,0.0147,0.2635,0.6893,0.3,medium,small,False,Cliff's delta,small,yes
+doubt_adjectives_count,covid,school_closures,NONE,target,0.0421,0.2251,0.559,0.2,medium,small,False,Cliff's delta,small,yes
+hedge_C_count,covid,school_closures,NONE,target,0.025,0.0378,0.9616,0.5429,large,large,True,Cohen's d,large,yes
+word_count,covid,stay_at_home_orders,NONE,target,0.1723,0.0331,-0.8555,-0.5733,large,large,False,Cliff's delta,large,yes
+sentence_count,covid,stay_at_home_orders,NONE,target,0.0484,0.0,-2.5748,-0.7227,large,large,False,Cliff's delta,large,yes
+std_word_length,covid,stay_at_home_orders,NONE,target,0.0161,0.0255,0.9821,0.5893,large,large,False,Cliff's delta,large,yes
+type_token_ratio,covid,stay_at_home_orders,NONE,target,0.0348,0.042,-0.8911,-0.5467,large,large,False,Cliff's delta,large,yes
+stopword_ratio,covid,stay_at_home_orders,NONE,target,0.0064,0.0039,-1.4614,-0.776,large,large,False,Cliff's delta,large,yes
+punctuation_density,covid,stay_at_home_orders,NONE,target,0.0001,0.0052,1.6373,0.752,large,large,False,Cliff's delta,large,yes
+noun_ratio,covid,stay_at_home_orders,NONE,target,0.0002,0.0041,1.5078,0.7733,large,large,False,Cliff's delta,large,yes
+verb_ratio,covid,stay_at_home_orders,NONE,target,0.005,0.0019,-1.6057,-0.816,large,large,False,Cliff's delta,large,yes
+pronoun_ratio,covid,stay_at_home_orders,NONE,target,0.0027,0.0048,-0.7157,-0.6533,large,large,False,Cliff's delta,large,yes
+function_word_ratio,covid,stay_at_home_orders,NONE,target,0.0077,0.0081,-1.2995,-0.712,large,large,False,Cliff's delta,large,yes
+punctuation_usage,covid,stay_at_home_orders,NONE,target,0.093,0.0004,-1.2142,-0.744,large,large,False,Cliff's delta,large,yes
+readability_score,covid,stay_at_home_orders,NONE,target,0.0006,0.1116,0.8057,0.4293,large,medium,False,Cliff's delta,medium,yes
+sentence_length_variation,covid,stay_at_home_orders,NONE,target,0.0624,0.0001,-1.1558,-0.6773,large,large,False,Cliff's delta,large,yes
+sentiment_subjectivity,covid,stay_at_home_orders,NONE,target,0.0652,0.001,-1.9338,-0.6507,large,large,False,Cliff's delta,large,yes
+joy,covid,stay_at_home_orders,NONE,target,0.0,0.0,1.107,0.9307,large,large,False,Cliff's delta,large,yes
+sadness,covid,stay_at_home_orders,NONE,target,0.0002,0.0018,0.4805,0.776,medium,large,False,Cliff's delta,large,yes
+surprise,covid,stay_at_home_orders,NONE,target,0.0,0.0016,0.671,0.7813,medium,large,False,Cliff's delta,large,yes
+doubt_adverbs_count,covid,stay_at_home_orders,NONE,target,0.2306,0.005,-1.3711,-0.3467,large,medium,False,Cliff's delta,medium,yes
+hedges_score,covid,stay_at_home_orders,NONE,target,0.1898,0.0,-2.3034,-0.3813,large,medium,False,Cliff's delta,medium,yes
+hedge_C_count,covid,stay_at_home_orders,NONE,target,0.0465,0.0014,-1.8455,-0.8533,large,large,False,Cliff's delta,large,yes
+hedge_D_count,covid,stay_at_home_orders,NONE,target,0.1778,0.0,-3.2249,-0.4,large,medium,False,Cliff's delta,medium,yes
+C_ratio,covid,stay_at_home_orders,NONE,target,0.1929,0.0,2.085,0.3813,large,medium,False,Cliff's delta,medium,yes
+D_ratio,covid,stay_at_home_orders,NONE,target,0.1783,0.0,-3.2198,-0.4,large,medium,False,Cliff's delta,medium,yes
+punctuation_density,pstance,ALL,AGAINST,overall,0.0585,0.0301,-0.3983,-0.2064,medium,small,False,Cliff's delta,small,yes
+sentiment_polarity,pstance,ALL,AGAINST,overall,0.0043,0.0009,-0.4662,-0.3156,medium,small,False,Cliff's delta,small,yes
+anger,pstance,ALL,AGAINST,overall,0.0086,0.1802,0.346,0.1276,medium,negligible,False,Cliff's delta,negligible,yes
+joy,pstance,ALL,AGAINST,overall,0.0489,0.0,-0.6573,-0.5217,medium,large,False,Cliff's delta,large,yes
+disgust,pstance,ALL,AGAINST,overall,0.0011,0.0724,0.2029,0.171,small,small,False,Cliff's delta,small,yes
+surprise,pstance,ALL,AGAINST,overall,0.231,0.0284,-0.2188,-0.2086,small,small,False,Cliff's delta,small,yes
+hedges_score,pstance,ALL,AGAINST,overall,0.0148,0.0501,0.3283,0.1435,medium,negligible,False,Cliff's delta,negligible,yes
+hedge_I_count,pstance,ALL,AGAINST,overall,0.0454,0.5613,0.0962,0.0085,small,negligible,False,Cliff's delta,negligible,yes
+I_ratio,pstance,ALL,AGAINST,overall,0.0473,0.5613,0.0954,0.0085,small,negligible,False,Cliff's delta,negligible,yes
+std_word_length,pstance,ALL,FAVOR,overall,0.0444,0.1362,0.2163,0.1026,small,negligible,False,Cliff's delta,negligible,yes
+punctuation_density,pstance,ALL,FAVOR,overall,0.2367,0.026,0.1706,0.1533,small,small,False,Cliff's delta,small,yes
+verb_ratio,pstance,ALL,FAVOR,overall,0.0367,0.073,-0.2526,-0.1234,small,negligible,True,Cohen's d,small,yes
+adv_ratio,pstance,ALL,FAVOR,overall,0.0066,0.0049,-0.3522,-0.1899,medium,small,False,Cliff's delta,small,yes
+pronoun_ratio,pstance,ALL,FAVOR,overall,0.019,0.0461,0.2542,0.1368,small,negligible,False,Cliff's delta,negligible,yes
+sentiment_polarity,pstance,ALL,FAVOR,overall,0.0,0.0,0.6037,0.3643,medium,medium,False,Cliff's delta,medium,yes
+anger,pstance,ALL,FAVOR,overall,0.0002,0.0,-0.6064,-0.3062,medium,small,False,Cliff's delta,small,yes
+joy,pstance,ALL,FAVOR,overall,0.0,0.0,0.6689,0.5583,medium,large,False,Cliff's delta,large,yes
+disgust,pstance,ALL,FAVOR,overall,0.0337,0.0,-0.5333,-0.3203,medium,small,False,Cliff's delta,small,yes
+certainty_verbs_count,pstance,ALL,FAVOR,overall,0.0094,0.0311,0.2747,0.1385,small,negligible,False,Cliff's delta,negligible,yes
+certainty_adjectives_count,pstance,ALL,FAVOR,overall,0.0003,0.0133,0.3364,0.1542,medium,small,False,Cliff's delta,small,yes
+hedges_score,pstance,ALL,FAVOR,overall,0.0219,0.0054,-0.3284,-0.1201,medium,negligible,False,Cliff's delta,negligible,yes
+sentence_count,pstance,Donald Trump,AGAINST,target,0.0619,0.0324,-0.4654,-0.2833,medium,small,False,Cliff's delta,small,yes
+avg_word_length,pstance,Donald Trump,AGAINST,target,0.0379,0.067,0.4562,0.2479,medium,small,False,Cliff's delta,small,yes
+punctuation_usage,pstance,Donald Trump,AGAINST,target,0.0116,0.0061,-0.7302,-0.3711,large,medium,False,Cliff's delta,medium,yes
+readability_score,pstance,Donald Trump,AGAINST,target,0.0007,0.0123,0.5849,0.3389,medium,medium,False,Cliff's delta,medium,yes
+joy,pstance,Donald Trump,AGAINST,target,0.1974,0.0116,-0.7489,-0.3417,large,medium,False,Cliff's delta,medium,yes
+disgust,pstance,Donald Trump,AGAINST,target,0.0096,0.3335,0.1892,0.131,small,negligible,False,Cliff's delta,negligible,yes
+surprise,pstance,Donald Trump,AGAINST,target,0.1341,0.0048,-0.5903,-0.3819,medium,medium,False,Cliff's delta,medium,yes
+hedge_I_count,pstance,Donald Trump,AGAINST,target,0.3774,0.0355,-0.4976,-0.0454,medium,negligible,False,Cliff's delta,negligible,yes
+hedge_N_count,pstance,Donald Trump,AGAINST,target,0.0,0.0947,0.3544,0.125,medium,negligible,False,Cliff's delta,negligible,yes
+I_ratio,pstance,Donald Trump,AGAINST,target,0.3635,0.0346,-0.5879,-0.0456,medium,negligible,False,Cliff's delta,negligible,yes
+N_ratio,pstance,Donald Trump,AGAINST,target,0.0,0.095,0.3361,0.125,medium,negligible,False,Cliff's delta,negligible,yes
+std_word_length,pstance,Donald Trump,FAVOR,target,0.0018,0.0718,0.4059,0.2116,medium,small,False,Cliff's delta,small,yes
+type_token_ratio,pstance,Donald Trump,FAVOR,target,0.0518,0.0449,-0.3787,-0.2356,medium,small,True,Cohen's d,medium,yes
+stopword_ratio,pstance,Donald Trump,FAVOR,target,0.0055,0.0158,-0.532,-0.2834,medium,small,False,Cliff's delta,small,yes
+noun_ratio,pstance,Donald Trump,FAVOR,target,0.0007,0.0175,0.5224,0.2791,medium,small,False,Cliff's delta,small,yes
+verb_ratio,pstance,Donald Trump,FAVOR,target,0.0363,0.0583,-0.4618,-0.2224,medium,small,True,Cohen's d,medium,yes
+function_word_ratio,pstance,Donald Trump,FAVOR,target,0.0111,0.0421,-0.4565,-0.2387,medium,small,False,Cliff's delta,small,yes
+sentiment_polarity,pstance,Donald Trump,FAVOR,target,0.0074,0.0425,0.4621,0.2356,medium,small,False,Cliff's delta,small,yes
+joy,pstance,Donald Trump,FAVOR,target,0.0002,0.0093,0.3599,0.3055,medium,small,False,Cliff's delta,small,yes
+disgust,pstance,Donald Trump,FAVOR,target,0.1965,0.0105,-0.5544,-0.3005,medium,small,False,Cliff's delta,small,yes
+hedge_D_count,pstance,Donald Trump,FAVOR,target,0.0008,0.1665,0.2679,0.0652,small,negligible,False,Cliff's delta,negligible,yes
+D_ratio,pstance,Donald Trump,FAVOR,target,0.0008,0.1666,0.2703,0.0652,small,negligible,False,Cliff's delta,negligible,yes
+punctuation_density,pstance,Bernie Sanders,AGAINST,target,0.0985,0.0338,0.3106,0.2316,medium,small,False,Cliff's delta,small,yes
+noun_ratio,pstance,Bernie Sanders,AGAINST,target,0.0132,0.097,0.4475,0.1812,medium,small,False,Cliff's delta,small,yes
+sentence_length_variation,pstance,Bernie Sanders,AGAINST,target,0.0101,0.0033,-0.4856,-0.3194,medium,small,False,Cliff's delta,small,yes
+sentiment_polarity,pstance,Bernie Sanders,AGAINST,target,0.0384,0.0621,-0.372,-0.2026,medium,small,False,Cliff's delta,small,yes
+anger,pstance,Bernie Sanders,AGAINST,target,0.0092,0.025,0.4695,0.2446,medium,small,False,Cliff's delta,small,yes
+joy,pstance,Bernie Sanders,AGAINST,target,0.2026,0.001,-0.2609,-0.3587,small,medium,False,Cliff's delta,medium,yes
+surprise,pstance,Bernie Sanders,AGAINST,target,0.0991,0.0065,-0.32,-0.2971,medium,small,False,Cliff's delta,small,yes
+avg_word_length,pstance,Bernie Sanders,FAVOR,target,0.014,0.0087,0.9946,0.5481,large,large,True,Cohen's d,large,yes
+std_word_length,pstance,Bernie Sanders,FAVOR,target,0.0258,0.0273,0.7933,0.4612,large,medium,True,Cohen's d,large,yes
+joy,pstance,Bernie Sanders,FAVOR,target,0.0,0.0189,0.5167,0.4825,medium,large,False,Cliff's delta,large,yes
+sadness,pstance,Bernie Sanders,FAVOR,target,0.1852,0.021,-1.573,-0.475,large,large,False,Cliff's delta,large,yes
+surprise,pstance,Bernie Sanders,FAVOR,target,0.024,0.9602,0.2684,-0.0112,small,negligible,False,Cliff's delta,negligible,yes
+doubt_adverbs_count,pstance,Bernie Sanders,FAVOR,target,0.061,0.0119,-0.9842,-0.455,large,medium,False,Cliff's delta,medium,yes
+doubt_verbs_count,pstance,Bernie Sanders,FAVOR,target,0.1102,0.0,-1.5555,-0.335,large,medium,False,Cliff's delta,medium,yes
+hedge_D_count,pstance,Bernie Sanders,FAVOR,target,0.0037,0.5463,0.2116,0.045,small,negligible,False,Cliff's delta,negligible,yes
+hedge_E_count,pstance,Bernie Sanders,FAVOR,target,0.0044,0.571,0.2072,0.04,small,negligible,False,Cliff's delta,negligible,yes
+D_ratio,pstance,Bernie Sanders,FAVOR,target,0.0033,0.5463,0.2141,0.045,small,negligible,False,Cliff's delta,negligible,yes
+E_ratio,pstance,Bernie Sanders,FAVOR,target,0.0054,0.5711,0.2025,0.04,small,negligible,False,Cliff's delta,negligible,yes
+type_token_ratio,pstance,Joe Biden,AGAINST,target,0.0412,0.0228,0.4931,0.2947,medium,small,False,Cliff's delta,small,yes
+verb_ratio,pstance,Joe Biden,AGAINST,target,0.0363,0.0655,0.4044,0.2385,medium,small,True,Cohen's d,medium,yes
+adv_ratio,pstance,Joe Biden,AGAINST,target,0.0068,0.13,0.4117,0.1949,medium,small,False,Cliff's delta,small,yes
+sentiment_polarity,pstance,Joe Biden,AGAINST,target,0.0431,0.0062,-0.5347,-0.3504,medium,medium,False,Cliff's delta,medium,yes
+joy,pstance,Joe Biden,AGAINST,target,0.2307,0.0004,-0.5503,-0.4587,medium,medium,False,Cliff's delta,medium,yes
+disgust,pstance,Joe Biden,AGAINST,target,0.001,0.0687,0.2587,0.2358,small,small,False,Cliff's delta,small,yes
+std_word_length,pstance,Joe Biden,FAVOR,target,0.045,0.0465,0.4136,0.2418,medium,small,False,Cliff's delta,small,yes
+stopword_ratio,pstance,Joe Biden,FAVOR,target,0.0296,0.022,-0.4515,-0.2782,medium,small,True,Cohen's d,medium,yes
+punctuation_density,pstance,Joe Biden,FAVOR,target,0.0168,0.0072,0.5683,0.3266,medium,small,True,Cohen's d,medium,yes
+noun_ratio,pstance,Joe Biden,FAVOR,target,0.0121,0.0188,0.5009,0.2854,medium,small,False,Cliff's delta,small,yes
+verb_ratio,pstance,Joe Biden,FAVOR,target,0.0121,0.0128,-0.5325,-0.3022,medium,small,True,Cohen's d,medium,yes
+adv_ratio,pstance,Joe Biden,FAVOR,target,0.0153,0.0041,-0.5064,-0.3364,medium,medium,False,Cliff's delta,medium,yes
+function_word_ratio,pstance,Joe Biden,FAVOR,target,0.0539,0.0366,-0.4076,-0.2539,medium,small,True,Cohen's d,medium,yes
+sentiment_polarity,pstance,Joe Biden,FAVOR,target,0.0323,0.0551,0.4443,0.2306,medium,small,False,Cliff's delta,small,yes
+anger,pstance,Joe Biden,FAVOR,target,0.0078,0.0012,-0.9881,-0.3931,large,medium,False,Cliff's delta,medium,yes
+joy,pstance,Joe Biden,FAVOR,target,0.0,0.0,0.7487,0.575,large,large,False,Cliff's delta,large,yes
+disgust,pstance,Joe Biden,FAVOR,target,0.1424,0.0012,-0.8471,-0.3948,large,medium,False,Cliff's delta,medium,yes
+certainty_adjectives_count,pstance,Joe Biden,FAVOR,target,0.0001,0.0105,0.5497,0.2843,medium,small,False,Cliff's delta,small,yes
+hedges_score,pstance,Joe Biden,FAVOR,target,0.0077,0.0,-0.8807,-0.2975,large,small,False,Cliff's delta,small,yes
+hedge_E_count,pstance,Joe Biden,FAVOR,target,0.0826,0.0012,-0.6983,-0.1317,medium,negligible,False,Cliff's delta,negligible,yes
+hedge_N_count,pstance,Joe Biden,FAVOR,target,0.0186,0.0001,-0.9872,-0.2225,large,small,False,Cliff's delta,small,yes
+C_ratio,pstance,Joe Biden,FAVOR,target,0.0124,0.0004,1.0316,0.259,large,small,False,Cliff's delta,small,yes
+E_ratio,pstance,Joe Biden,FAVOR,target,0.1118,0.0012,-0.5263,-0.1317,medium,negligible,False,Cliff's delta,negligible,yes
+N_ratio,pstance,Joe Biden,FAVOR,target,0.0207,0.0001,-0.9406,-0.2208,large,small,False,Cliff's delta,small,yes
+std_word_length,semeval,ALL,AGAINST,overall,0.0652,0.0477,-0.3087,-0.138,medium,negligible,False,Cliff's delta,negligible,yes
+adv_ratio,semeval,ALL,AGAINST,overall,0.0067,0.0051,-0.3743,-0.1843,medium,small,False,Cliff's delta,small,yes
+sentence_length_variation,semeval,ALL,AGAINST,overall,0.0206,0.0204,0.2757,0.1604,small,small,False,Cliff's delta,small,yes
+anger,semeval,ALL,AGAINST,overall,0.559,0.0379,-0.0702,-0.1447,small,negligible,False,Cliff's delta,negligible,yes
+joy,semeval,ALL,AGAINST,overall,0.1133,0.0276,-0.2209,-0.1536,small,small,False,Cliff's delta,small,yes
+fear,semeval,ALL,AGAINST,overall,0.1072,0.0201,0.191,0.162,small,small,False,Cliff's delta,small,yes
+surprise,semeval,ALL,AGAINST,overall,0.9172,0.0148,-0.0092,-0.17,small,small,False,Cliff's delta,small,yes
+noun_ratio,semeval,ALL,FAVOR,overall,0.0346,0.033,0.4336,0.2511,medium,small,False,Cliff's delta,small,yes
+readability_score,semeval,ALL,FAVOR,overall,0.0422,0.0286,-0.3951,-0.2578,medium,small,False,Cliff's delta,small,yes
+anger,semeval,ALL,FAVOR,overall,0.004,0.0011,-0.7896,-0.3839,large,medium,False,Cliff's delta,medium,yes
+fear,semeval,ALL,FAVOR,overall,0.0274,0.0381,0.5087,0.2444,medium,small,False,Cliff's delta,small,yes
+sadness,semeval,ALL,FAVOR,overall,0.0097,0.0951,0.293,0.1967,small,small,False,Cliff's delta,small,yes
+surprise,semeval,ALL,FAVOR,overall,0.5245,0.0094,0.1223,0.306,small,small,False,Cliff's delta,small,yes
+doubt_adverbs_count,semeval,ALL,FAVOR,overall,0.0553,0.0078,-0.4646,-0.2005,medium,small,False,Cliff's delta,small,yes
+doubt_adjectives_count,semeval,ALL,FAVOR,overall,0.0444,0.1378,0.3083,0.1078,medium,negligible,False,Cliff's delta,negligible,yes
+std_word_length,semeval,ALL,NONE,overall,0.0271,0.0239,0.4485,0.26,medium,small,True,Cohen's d,medium,yes
+stopword_ratio,semeval,ALL,NONE,overall,0.0272,0.0955,-0.4413,-0.1918,medium,small,True,Cohen's d,medium,yes
+punctuation_density,semeval,ALL,NONE,overall,0.0119,0.0057,0.5118,0.3179,medium,small,False,Cliff's delta,small,yes
+pronoun_ratio,semeval,ALL,NONE,overall,0.0274,0.0594,0.4037,0.2079,medium,small,False,Cliff's delta,small,yes
+sentiment_subjectivity,semeval,ALL,NONE,overall,0.008,0.0178,0.5017,0.2661,medium,small,False,Cliff's delta,small,yes
+fear,semeval,ALL,NONE,overall,0.0466,0.0522,-0.3949,-0.2236,medium,small,False,Cliff's delta,small,yes
+certainty_verbs_count,semeval,ALL,NONE,overall,0.0178,0.0121,-0.5106,-0.225,medium,small,False,Cliff's delta,small,yes
+hedge_C_count,semeval,ALL,NONE,overall,0.0174,0.0277,-0.4658,-0.2529,medium,small,False,Cliff's delta,small,yes
+hedge_E_count,semeval,ALL,NONE,overall,0.0242,0.0866,0.3445,0.0714,medium,negligible,False,Cliff's delta,negligible,yes
+E_ratio,semeval,ALL,NONE,overall,0.0357,0.0867,0.3204,0.0714,medium,negligible,False,Cliff's delta,negligible,yes
+word_count,semeval,Atheism,AGAINST,target,0.0098,0.028,0.5055,0.3209,medium,small,False,Cliff's delta,small,yes
+avg_word_length,semeval,Atheism,AGAINST,target,0.0001,0.0,-1.2494,-0.6157,large,large,True,Cohen's d,large,yes
+std_word_length,semeval,Atheism,AGAINST,target,0.0002,0.0,-1.1266,-0.6152,large,large,False,Cliff's delta,large,yes
+stopword_ratio,semeval,Atheism,AGAINST,target,0.0519,0.0253,0.4899,0.3271,medium,small,True,Cohen's d,medium,yes
+adj_ratio,semeval,Atheism,AGAINST,target,0.0763,0.0372,-0.4414,-0.3011,medium,small,False,Cliff's delta,small,yes
+pronoun_ratio,semeval,Atheism,AGAINST,target,0.0002,0.0048,0.7435,0.4097,large,medium,False,Cliff's delta,medium,yes
+function_word_ratio,semeval,Atheism,AGAINST,target,0.0296,0.025,0.5584,0.3277,medium,small,True,Cohen's d,medium,yes
+readability_score,semeval,Atheism,AGAINST,target,0.005,0.0022,-0.9575,-0.4471,large,medium,False,Cliff's delta,medium,yes
+subordinate_clause_ratio,semeval,Atheism,AGAINST,target,0.0038,0.0791,0.5092,0.249,medium,small,False,Cliff's delta,small,yes
+sadness,semeval,Atheism,AGAINST,target,0.0,0.0028,0.5292,0.4363,medium,medium,False,Cliff's delta,medium,yes
+certainty_verbs_count,semeval,Atheism,AGAINST,target,0.0,0.005,0.6794,0.3384,medium,medium,False,Cliff's delta,medium,yes
+hedge_C_count,semeval,Atheism,AGAINST,target,0.0015,0.0072,0.6334,0.3922,medium,medium,False,Cliff's delta,medium,yes
+anger,semeval,Feminist Movement,AGAINST,target,0.001,0.0059,0.7973,0.4983,large,large,False,Cliff's delta,large,yes
+joy,semeval,Feminist Movement,AGAINST,target,0.0444,0.0094,-1.1162,-0.4704,large,medium,False,Cliff's delta,medium,yes
+sadness,semeval,Feminist Movement,AGAINST,target,0.1274,0.0396,-0.5694,-0.3728,medium,medium,False,Cliff's delta,medium,yes
+disgust,semeval,Feminist Movement,AGAINST,target,0.0007,0.0138,0.6707,0.446,medium,medium,False,Cliff's delta,medium,yes
+surprise,semeval,Feminist Movement,AGAINST,target,0.619,0.0145,-0.1384,-0.4425,small,medium,False,Cliff's delta,medium,yes
+certainty_verbs_count,semeval,Feminist Movement,AGAINST,target,0.0451,0.01,-0.9428,-0.3554,large,medium,False,Cliff's delta,medium,yes
+doubt_adjectives_count,semeval,Feminist Movement,AGAINST,target,0.044,0.2376,0.3738,0.0976,medium,negligible,False,Cliff's delta,negligible,yes
+hedge_N_count,semeval,Feminist Movement,AGAINST,target,0.0307,0.1812,0.4028,0.122,medium,negligible,False,Cliff's delta,negligible,yes
+C_ratio,semeval,Feminist Movement,AGAINST,target,0.0174,0.1057,-0.503,-0.2125,medium,small,False,Cliff's delta,small,yes
+N_ratio,semeval,Feminist Movement,AGAINST,target,0.0335,0.1813,0.3959,0.122,medium,negligible,False,Cliff's delta,negligible,yes
+std_word_length,semeval,Feminist Movement,FAVOR,target,0.0297,0.0193,-1.8289,-0.76,large,large,False,Cliff's delta,large,yes
+type_token_ratio,semeval,Feminist Movement,FAVOR,target,0.0517,0.0496,1.0858,0.66,large,large,True,Cohen's d,large,yes
+hapax_legomena,semeval,Feminist Movement,FAVOR,target,0.0655,0.0431,0.8355,0.68,large,large,False,Cliff's delta,large,yes
+stopword_ratio,semeval,Feminist Movement,FAVOR,target,0.0272,0.012,1.7148,0.84,large,large,False,Cliff's delta,large,yes
+punctuation_density,semeval,Feminist Movement,FAVOR,target,0.0722,0.0498,-1.2259,-0.66,large,large,True,Cohen's d,large,yes
+function_word_ratio,semeval,Feminist Movement,FAVOR,target,0.0467,0.0168,1.7021,0.8,large,large,True,Cohen's d,large,yes
+punctuation_density,semeval,Feminist Movement,NONE,target,0.0477,0.0712,1.0295,0.5556,large,large,True,Cohen's d,large,yes
+disgust,semeval,Feminist Movement,NONE,target,0.4368,0.0418,0.3613,-0.619,medium,large,False,Cliff's delta,large,yes
+sentence_count,semeval,Legalization of Abortion,AGAINST,target,0.0056,0.0161,0.5471,0.2824,medium,small,False,Cliff's delta,small,yes
+punctuation_usage,semeval,Legalization of Abortion,AGAINST,target,0.0253,0.0318,0.4655,0.266,medium,small,False,Cliff's delta,small,yes
+doubt_verbs_count,semeval,Legalization of Abortion,AGAINST,target,0.0447,0.1895,0.2846,0.0548,small,negligible,False,Cliff's delta,negligible,yes
+doubt_adjectives_count,semeval,Legalization of Abortion,AGAINST,target,0.0243,0.1398,0.3205,0.0685,medium,negligible,False,Cliff's delta,negligible,yes
+hedge_E_count,semeval,Legalization of Abortion,AGAINST,target,0.0447,0.1895,0.2846,0.0548,small,negligible,False,Cliff's delta,negligible,yes
+E_ratio,semeval,Legalization of Abortion,AGAINST,target,0.0453,0.1896,0.2838,0.0548,small,negligible,False,Cliff's delta,negligible,yes
+std_word_length,semeval,Legalization of Abortion,FAVOR,target,0.0481,0.0756,-0.9155,-0.4808,large,large,True,Cohen's d,large,yes
+disgust,semeval,Legalization of Abortion,FAVOR,target,0.0096,0.0077,1.0742,0.6923,large,large,False,Cliff's delta,large,yes
+sentence_count,semeval,Legalization of Abortion,NONE,target,0.0418,0.0834,0.979,0.5231,large,large,False,Cliff's delta,large,yes
+stopword_ratio,semeval,Legalization of Abortion,NONE,target,0.0494,0.2359,-0.7673,-0.3846,large,medium,True,Cohen's d,large,yes
+punctuation_usage,semeval,Legalization of Abortion,NONE,target,0.0313,0.114,0.8618,0.5077,large,large,True,Cohen's d,large,yes
+word_count,semeval,Donald Trump,AGAINST,target,0.042,0.0939,0.7981,0.3802,large,medium,True,Cohen's d,large,yes
+avg_word_length,semeval,Donald Trump,AGAINST,target,0.0279,0.0046,-0.8046,-0.6406,large,large,False,Cliff's delta,large,yes
+std_word_length,semeval,Donald Trump,AGAINST,target,0.1084,0.0013,-0.5627,-0.7292,medium,large,False,Cliff's delta,large,yes
+hedges_score,semeval,Donald Trump,AGAINST,target,0.0438,0.0279,0.9238,0.3594,large,medium,False,Cliff's delta,medium,yes
+hedge_D_count,semeval,Donald Trump,AGAINST,target,0.0819,0.0418,0.8498,0.25,large,small,False,Cliff's delta,small,yes
+D_ratio,semeval,Donald Trump,AGAINST,target,0.0858,0.0421,0.8376,0.25,large,small,False,Cliff's delta,small,yes
+avg_word_length,semeval,Hillary Clinton,AGAINST,target,0.0042,0.0055,0.8923,0.5221,large,large,False,Cliff's delta,large,yes
+sentiment_polarity,semeval,Hillary Clinton,AGAINST,target,0.0079,0.0069,-0.7796,-0.4791,large,large,False,Cliff's delta,large,yes
+joy,semeval,Hillary Clinton,AGAINST,target,0.1481,0.0,-0.4059,-0.7936,medium,large,False,Cliff's delta,large,yes
+fear,semeval,Hillary Clinton,AGAINST,target,0.0145,0.0011,0.9222,0.6118,large,large,False,Cliff's delta,large,yes
+sadness,semeval,Hillary Clinton,AGAINST,target,0.3401,0.0109,-0.5334,-0.4791,medium,large,False,Cliff's delta,large,yes
+surprise,semeval,Hillary Clinton,AGAINST,target,0.1395,0.0003,-1.38,-0.683,large,large,False,Cliff's delta,large,yes
+certainty_adjectives_count,semeval,Hillary Clinton,AGAINST,target,0.0724,0.0198,-0.746,-0.3649,large,medium,False,Cliff's delta,medium,yes
+sentiment_polarity,semeval,Hillary Clinton,FAVOR,target,0.0011,0.0011,1.6125,0.8056,large,large,True,Cohen's d,large,yes
+anger,semeval,Hillary Clinton,FAVOR,target,0.1599,0.0085,-0.8731,-0.6528,large,large,False,Cliff's delta,large,yes
+joy,semeval,Hillary Clinton,FAVOR,target,0.0022,0.0072,1.1443,0.6667,large,large,False,Cliff's delta,large,yes
+noun_ratio,semeval,Hillary Clinton,NONE,target,0.0779,0.0328,-0.6538,-0.5227,medium,large,False,Cliff's delta,large,yes
+pronoun_ratio,semeval,Hillary Clinton,NONE,target,0.0249,0.0922,0.723,0.4034,large,medium,False,Cliff's delta,medium,yes
+sentence_length_variation,semeval,Hillary Clinton,NONE,target,0.042,0.0682,0.7498,0.4432,large,medium,False,Cliff's delta,medium,yes
+sentiment_subjectivity,semeval,Hillary Clinton,NONE,target,0.0077,0.0216,0.9919,0.5568,large,large,False,Cliff's delta,large,yes
+anger,semeval,Hillary Clinton,NONE,target,0.0023,0.0308,0.871,0.5227,large,large,False,Cliff's delta,large,yes
+joy,semeval,Hillary Clinton,NONE,target,0.0383,0.4751,0.5499,0.1818,medium,small,False,Cliff's delta,small,yes
+fear,semeval,Hillary Clinton,NONE,target,0.0,0.0001,-2.1808,-0.8636,large,large,False,Cliff's delta,large,yes
+sadness,semeval,Hillary Clinton,NONE,target,0.0481,0.1176,0.5212,0.3864,medium,medium,False,Cliff's delta,medium,yes
+certainty_adjectives_count,semeval,Hillary Clinton,NONE,target,0.0425,0.2172,0.5318,0.1818,medium,small,False,Cliff's delta,small,yes
+doubt_adverbs_count,semeval,Hillary Clinton,NONE,target,0.0106,0.1119,0.6908,0.2727,medium,small,False,Cliff's delta,small,yes

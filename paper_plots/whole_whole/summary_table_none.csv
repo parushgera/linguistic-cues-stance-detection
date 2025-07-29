@@ -1,0 +1,11 @@
+Feature,LR Coef,Significant,Effect Size,Impact,Max Misclass Rate
+stopword_ratio,+0.943,yes,Cliff's delta (medium),↑ Misclass,"39.7\% ((0.338, 0.571])"
+function_word_ratio,-0.866,yes,Cliff's delta (medium),↓ Misclass,"38.3\% ((0.301, 0.4])"
+certainty_verbs_count,+0.661,yes,Cliff's delta (negligible),↑ Misclass,"75.0\% ((1.0, 2.0])"
+fear,+0.572,yes,Cliff's delta (small),↑ Misclass,"44.8\% ((0.824, 0.995])"
+punctuation_density,-0.558,yes,Cliff's delta (small),↓ Misclass,"45.8\% ((-0.001, 0.2])"
+noun_ratio,+0.479,yes,Cliff's delta (medium),↑ Misclass,"36.2\% ((0.281, 0.364])"
+verb_ratio,+0.443,yes,Cliff's delta (medium),↑ Misclass,"44.4\% ((0.167, 0.364])"
+std_word_length,-0.406,yes,Cliff's delta (medium),↓ Misclass,"39.7\% ((1.5990000000000002, 2.77])"
+pronoun_ratio,-0.364,yes,Cliff's delta (negligible),↓ Misclass,"30.2\% ((0.0769, 0.286])"
+doubt_adverbs_count,+0.337,yes,Cliff's delta (small),↑ Misclass,"27.0\% ((1.0, 4.0])"

@@ -1,0 +1,4 @@
+Feature,LR Coef,Significant,Effect Size,Impact,Max Misclass Rate,Stance
+word_count,-0.704,yes,Cliff's delta (small),↓ Correct,"42.9% (NONE: (29.0, 67.0])",NONE
+stopword_ratio,-0.380,yes,Cliff's delta (medium),↓ Correct,"39.7% (NONE: (0.338, 0.571])",NONE
+fear,-0.340,yes,Cliff's delta (small),↓ Correct,"44.8% (NONE: (0.824, 0.995])",NONE

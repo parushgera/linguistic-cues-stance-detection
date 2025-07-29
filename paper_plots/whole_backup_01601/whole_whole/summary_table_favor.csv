@@ -1,0 +1,11 @@
+Feature,LR Coef,Significant,Effect Size,Impact,Max Misclass Rate
+anger,+0.737,yes,Cliff's delta (negligible),↑ Misclass,"33.3\% ((0.0183, 0.078])"
+fear,+0.729,yes,Cliff's delta (small),↑ Misclass,"44.8\% ((0.824, 0.995])"
+stopword_ratio,+0.482,yes,Cliff's delta (medium),↑ Misclass,"39.7\% ((0.338, 0.571])"
+surprise,+0.416,yes,Cliff's delta (small),↑ Misclass,"39.7\% ((-0.0006050000000000001, 0.00592])"
+pronoun_ratio,-0.390,yes,Cliff's delta (negligible),↓ Misclass,"30.2\% ((0.0769, 0.286])"
+disgust,+0.332,yes,Cliff's delta (small),↑ Misclass,"31.0\% ((-0.000872, 0.00045])"
+hedge_C_count,-0.312,yes,Cliff's delta (small),↓ Misclass,"49.0\% ((20.0, 49.0])"
+hedge_N_count,+0.264,No,-,↑ Misclass,-
+adv_ratio,+0.249,yes,Cliff's delta (small),↑ Misclass,"34.5\% ((0.0553, 0.286])"
+subordinate_clause_ratio,-0.216,yes,Cliff's delta (negligible),↓ Misclass,"35.1\% ((0.0645, 0.192])"

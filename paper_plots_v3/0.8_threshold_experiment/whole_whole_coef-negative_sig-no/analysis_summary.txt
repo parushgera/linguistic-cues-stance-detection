@@ -1,0 +1,53 @@
+Running experiment: whole_whole_coef-negative_sig-no
+I am using whole setting and whole dataset 
+=== Logistic Regression Summary ===
+Confusion matrix (All Stances):
+[[1416    4]
+ [ 274    1]]
+
+[All Stances] Accuracy: 0.8330
+
+Confusion matrix (AGAINST):
+[[706   3]
+ [120   1]]
+
+[AGAINST] Accuracy: 0.8434
+
+Confusion matrix (FAVOR):
+[[531   6]
+ [ 87  11]]
+
+[FAVOR] Accuracy: 0.8252
+
+Confusion matrix (NONE):
+[[165   9]
+ [ 21  35]]
+
+[NONE] Accuracy: 0.7348
+  function_word_ratio: -0.8659
+
+=== Features selected for Quartile Analysis (1 total) ===
+  function_word_ratio
+
+--- function_word_ratio Quartile Analysis ---
+All Stances:
+  (-0.001, 0.292]: Correct=0.861, Mis=0.139
+  (0.292, 0.382]: Correct=0.805, Mis=0.195
+  (0.382, 0.462]: Correct=0.856, Mis=0.144
+  (0.462, 0.8]: Correct=0.828, Mis=0.172
+AGAINST:
+  (-0.001, 0.308]: Correct=0.827, Mis=0.173
+  (0.308, 0.391]: Correct=0.850, Mis=0.150
+  (0.391, 0.466]: Correct=0.894, Mis=0.106
+  (0.466, 0.727]: Correct=0.846, Mis=0.154
+FAVOR:
+  (0.042499999999999996, 0.308]: Correct=0.856, Mis=0.144
+  (0.308, 0.39]: Correct=0.842, Mis=0.158
+  (0.39, 0.462]: Correct=0.849, Mis=0.151
+  (0.462, 0.673]: Correct=0.834, Mis=0.166
+NONE:
+  (-0.001, 0.143]: Correct=0.966, Mis=0.034
+  (0.143, 0.301]: Correct=0.768, Mis=0.232
+  (0.301, 0.4]: Correct=0.617, Mis=0.383
+  (0.4, 0.8]: Correct=0.673, Mis=0.327
+

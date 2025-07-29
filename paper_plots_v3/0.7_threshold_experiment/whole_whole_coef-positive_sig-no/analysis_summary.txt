@@ -1,0 +1,125 @@
+Running experiment: whole_whole_coef-positive_sig-no
+I am using whole setting and whole dataset 
+=== Logistic Regression Summary ===
+Confusion matrix (All Stances):
+[[1416    4]
+ [ 274    1]]
+
+[All Stances] Accuracy: 0.8330
+  word_count: 0.7037
+
+Confusion matrix (AGAINST):
+[[706   3]
+ [120   1]]
+
+[AGAINST] Accuracy: 0.8434
+
+Confusion matrix (FAVOR):
+[[531   6]
+ [ 87  11]]
+
+[FAVOR] Accuracy: 0.8252
+  anger: 0.7373
+  fear: 0.7291
+
+Confusion matrix (NONE):
+[[165   9]
+ [ 21  35]]
+
+[NONE] Accuracy: 0.7348
+  stopword_ratio: 0.9424
+
+=== Features selected for Quartile Analysis (4 total) ===
+  word_count
+  fear
+  anger
+  stopword_ratio
+
+--- word_count Quartile Analysis ---
+All Stances:
+  (2.999, 21.0]: Correct=0.806, Mis=0.194
+  (21.0, 27.0]: Correct=0.835, Mis=0.165
+  (27.0, 41.0]: Correct=0.857, Mis=0.143
+  (41.0, 70.0]: Correct=0.858, Mis=0.142
+AGAINST:
+  (6.999, 21.0]: Correct=0.797, Mis=0.203
+  (21.0, 26.0]: Correct=0.840, Mis=0.160
+  (26.0, 39.0]: Correct=0.910, Mis=0.090
+  (39.0, 70.0]: Correct=0.875, Mis=0.125
+FAVOR:
+  (7.999, 22.5]: Correct=0.824, Mis=0.176
+  (22.5, 30.0]: Correct=0.817, Mis=0.183
+  (30.0, 45.0]: Correct=0.857, Mis=0.143
+  (45.0, 70.0]: Correct=0.886, Mis=0.114
+NONE:
+  (2.999, 15.0]: Correct=0.933, Mis=0.067
+  (15.0, 24.0]: Correct=0.623, Mis=0.377
+  (24.0, 29.0]: Correct=0.867, Mis=0.133
+  (29.0, 67.0]: Correct=0.571, Mis=0.429
+
+--- fear Quartile Analysis ---
+All Stances:
+  (-0.0006000000000000001, 0.114]: Correct=0.861, Mis=0.139
+  (0.114, 0.576]: Correct=0.854, Mis=0.146
+  (0.576, 0.871]: Correct=0.835, Mis=0.165
+  (0.871, 0.996]: Correct=0.802, Mis=0.198
+AGAINST:
+  (-0.0006000000000000001, 0.123]: Correct=0.894, Mis=0.106
+  (0.123, 0.612]: Correct=0.855, Mis=0.145
+  (0.612, 0.875]: Correct=0.836, Mis=0.164
+  (0.875, 0.995]: Correct=0.832, Mis=0.168
+FAVOR:
+  (-0.00041799999999999997, 0.143]: Correct=0.849, Mis=0.151
+  (0.143, 0.599]: Correct=0.843, Mis=0.157
+  (0.599, 0.882]: Correct=0.854, Mis=0.146
+  (0.882, 0.996]: Correct=0.836, Mis=0.164
+NONE:
+  (0.00044000000000000007, 0.0577]: Correct=0.793, Mis=0.207
+  (0.0577, 0.346]: Correct=0.877, Mis=0.123
+  (0.346, 0.824]: Correct=0.807, Mis=0.193
+  (0.824, 0.995]: Correct=0.552, Mis=0.448
+
+--- anger Quartile Analysis ---
+All Stances:
+  (-0.000273, 0.0238]: Correct=0.870, Mis=0.130
+  (0.0238, 0.0772]: Correct=0.828, Mis=0.172
+  (0.0772, 0.244]: Correct=0.809, Mis=0.191
+  (0.244, 0.995]: Correct=0.844, Mis=0.156
+AGAINST:
+  (-0.000273, 0.03]: Correct=0.880, Mis=0.120
+  (0.03, 0.0992]: Correct=0.807, Mis=0.193
+  (0.0992, 0.353]: Correct=0.816, Mis=0.184
+  (0.353, 0.995]: Correct=0.913, Mis=0.087
+FAVOR:
+  (-0.00017200000000000006, 0.0205]: Correct=0.893, Mis=0.107
+  (0.0205, 0.0589]: Correct=0.887, Mis=0.113
+  (0.0589, 0.175]: Correct=0.829, Mis=0.171
+  (0.175, 0.989]: Correct=0.774, Mis=0.226
+NONE:
+  (-2.9999999999999645e-06, 0.0183]: Correct=0.759, Mis=0.241
+  (0.0183, 0.078]: Correct=0.667, Mis=0.333
+  (0.078, 0.163]: Correct=0.807, Mis=0.193
+  (0.163, 0.981]: Correct=0.793, Mis=0.207
+
+--- stopword_ratio Quartile Analysis ---
+All Stances:
+  (-0.001, 0.238]: Correct=0.862, Mis=0.138
+  (0.238, 0.318]: Correct=0.821, Mis=0.179
+  (0.318, 0.391]: Correct=0.842, Mis=0.158
+  (0.391, 0.619]: Correct=0.826, Mis=0.174
+AGAINST:
+  (-0.001, 0.25]: Correct=0.808, Mis=0.192
+  (0.25, 0.333]: Correct=0.872, Mis=0.128
+  (0.333, 0.394]: Correct=0.892, Mis=0.108
+  (0.394, 0.615]: Correct=0.850, Mis=0.150
+FAVOR:
+  (-0.001, 0.25]: Correct=0.894, Mis=0.106
+  (0.25, 0.324]: Correct=0.809, Mis=0.191
+  (0.324, 0.4]: Correct=0.834, Mis=0.166
+  (0.4, 0.619]: Correct=0.845, Mis=0.155
+NONE:
+  (-0.001, 0.112]: Correct=0.966, Mis=0.034
+  (0.112, 0.25]: Correct=0.787, Mis=0.213
+  (0.25, 0.338]: Correct=0.660, Mis=0.340
+  (0.338, 0.571]: Correct=0.603, Mis=0.397
+

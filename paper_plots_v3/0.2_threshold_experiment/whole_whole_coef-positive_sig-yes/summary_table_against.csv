@@ -1,0 +1,5 @@
+Feature,LR Coef,Significant,Effect Size,Impact,Max Misclass Rate
+noun_ratio,+0.295,yes,Cliff's delta (medium),↑ Misclass,"36.2% ((0.281, 0.364])"
+adj_ratio,+0.287,yes,Cliff's delta (small),↑ Misclass,"27.7% ((-0.001, 0.0588])"
+punctuation_density,+0.276,yes,Cliff's delta (small),↑ Misclass,"45.8% ((-0.001, 0.2])"
+function_word_ratio,+0.261,yes,Cliff's delta (medium),↑ Misclass,"38.3% ((0.301, 0.4])"

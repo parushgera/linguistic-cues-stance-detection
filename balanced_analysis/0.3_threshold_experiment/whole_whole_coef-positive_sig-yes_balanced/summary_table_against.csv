@@ -1,0 +1,2 @@
+Feature,LR Coef,Significant,Effect Size,Impact,Max Misclass Rate
+avg_word_length,+0.540,yes,Cliff's delta (medium),↑ Correct,"81.5% ((3.75, 4.101])"

@@ -1,0 +1,2 @@
+Feature,LR Coef,Significant,Effect Size,Impact,Max Misclass Rate,Stance
+hedge_C_count,-0.753,no,Cliff's delta (negligible),↓ Misclass,"49.0% (NONE: (20.0, 49.0])",NONE

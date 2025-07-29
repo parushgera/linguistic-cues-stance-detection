@@ -1,0 +1,7 @@
+feature,dataset,target,stance,source,t_pvalue,u_pvalue,cohens_d,cliffs_delta,cohen_strength,cliff_strength,distributions_normal,preferred_effect,preferred_strength,significant,coefficient,abs_coef
+word_count,whole,ALL,All Stances,whole,0.179,0.1823,0.1484,0.0846,small,negligible,False,Cliff's delta,negligible,no,0.7035530311278607,0.7035530311278607
+fear,whole,ALL,FAVOR,whole,0.0953,0.1823,-0.1592,-0.0758,small,negligible,False,Cliff's delta,negligible,no,0.729077866876429,0.729077866876429
+fear,whole,ALL,FAVOR,whole,0.7564,0.5951,-0.0338,-0.0337,small,negligible,False,Cliff's delta,negligible,no,0.729077866876429,0.729077866876429
+anger,whole,ALL,FAVOR,whole,0.8598,0.2259,-0.0304,0.1078,small,negligible,False,Cliff's delta,negligible,no,0.7372757173587207,0.7372757173587207
+stopword_ratio,whole,ALL,NONE,whole,0.2866,0.2481,0.1138,0.0656,small,negligible,True,Cohen's d,small,no,0.942641519464363,0.942641519464363
+stopword_ratio,whole,ALL,NONE,whole,0.275,0.279,-0.1146,-0.0687,small,negligible,False,Cliff's delta,negligible,no,0.942641519464363,0.942641519464363

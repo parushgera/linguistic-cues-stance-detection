@@ -1,0 +1,94 @@
+Running experiment: whole_whole_coef-positive_sig-yes_balanced
+I am using whole setting and whole dataset 
+Balancing dataset with stratified sampling.
+=== Logistic Regression Summary ===
+Confusion matrix (All Stances):
+[[180  95]
+ [110 165]]
+
+Classification Report (All Stances):
+               precision    recall  f1-score   support
+
+Misclassified     0.6207    0.6545    0.6372       275
+      Correct     0.6346    0.6000    0.6168       275
+
+     accuracy                         0.6273       550
+    macro avg     0.6277    0.6273    0.6270       550
+ weighted avg     0.6277    0.6273    0.6270       550
+
+[All Stances] Accuracy: 0.5218
+
+Confusion matrix (AGAINST):
+[[83 38]
+ [44 77]]
+
+Classification Report (AGAINST):
+               precision    recall  f1-score   support
+
+Misclassified     0.6535    0.6860    0.6694       121
+      Correct     0.6696    0.6364    0.6525       121
+
+     accuracy                         0.6612       242
+    macro avg     0.6616    0.6612    0.6609       242
+ weighted avg     0.6616    0.6612    0.6609       242
+
+[AGAINST] Accuracy: 0.4624
+
+Confusion matrix (FAVOR):
+[[76 22]
+ [30 68]]
+
+Classification Report (FAVOR):
+               precision    recall  f1-score   support
+
+Misclassified     0.7170    0.7755    0.7451        98
+      Correct     0.7556    0.6939    0.7234        98
+
+     accuracy                         0.7347       196
+    macro avg     0.7363    0.7347    0.7343       196
+ weighted avg     0.7363    0.7347    0.7343       196
+
+[FAVOR] Accuracy: 0.5405
+
+Confusion matrix (NONE):
+[[49  7]
+ [ 9 47]]
+
+Classification Report (NONE):
+               precision    recall  f1-score   support
+
+Misclassified     0.8448    0.8750    0.8596        56
+      Correct     0.8704    0.8393    0.8545        56
+
+     accuracy                         0.8571       112
+    macro avg     0.8576    0.8571    0.8571       112
+ weighted avg     0.8576    0.8571    0.8571       112
+
+[NONE] Accuracy: 0.7245
+  function_word_ratio: 0.7897
+
+=== Features selected for Quartile Analysis (1 total) ===
+  function_word_ratio
+
+--- function_word_ratio Quartile Analysis ---
+All Stances:
+  (-0.001, 0.294]: Correct=0.557, Mis=0.443
+  (0.294, 0.378]: Correct=0.449, Mis=0.551
+  (0.378, 0.462]: Correct=0.511, Mis=0.489
+  (0.462, 0.8]: Correct=0.481, Mis=0.519
+AGAINST:
+  (0.036, 0.301]: Correct=0.459, Mis=0.541
+  (0.301, 0.381]: Correct=0.492, Mis=0.508
+  (0.381, 0.462]: Correct=0.590, Mis=0.410
+  (0.462, 0.692]: Correct=0.458, Mis=0.542
+FAVOR:
+  (0.042499999999999996, 0.315]: Correct=0.490, Mis=0.510
+  (0.315, 0.393]: Correct=0.510, Mis=0.490
+  (0.393, 0.468]: Correct=0.429, Mis=0.571
+  (0.468, 0.667]: Correct=0.571, Mis=0.429
+NONE:
+  (-0.001, 0.186]: Correct=0.857, Mis=0.143
+  (0.186, 0.339]: Correct=0.357, Mis=0.643
+  (0.339, 0.429]: Correct=0.379, Mis=0.621
+  (0.429, 0.8]: Correct=0.407, Mis=0.593
+

@@ -1,0 +1,140 @@
+I am using overall setting and semeval dataset 
+=== Logistic Regression Summary ===
+[All Stances] Accuracy: 0.7104
+  C_ratio: 0.3903
+  hedge_D_count: 0.3367
+  pronoun_ratio: -0.3114
+  std_word_length: 0.3096
+  hedge_N_count: 0.3088
+  word_count: -0.2305
+  hedge_C_count: 0.2213
+  doubt_verbs_count: -0.2202
+  joy: 0.2045
+  verb_ratio: 0.1954
+
+[AGAINST] Accuracy: 0.6838
+  std_word_length: 0.5368
+  function_word_ratio: 0.3752
+  adv_ratio: 0.3201
+  stopword_ratio: -0.3122
+  joy: 0.2456
+  readability_score: -0.2184
+  pronoun_ratio: -0.1967
+  E_ratio: -0.1963
+  verb_ratio: 0.1911
+  doubt_adjectives_count: 0.1606
+
+[FAVOR] Accuracy: 0.7249
+  sadness: -1.3751
+  noun_ratio: -0.6490
+  hedge_D_count: 0.6166
+  hedges_score: -0.5525
+  anger: 0.4495
+  doubt_adjectives_count: -0.4405
+  stopword_ratio: -0.4170
+  disgust: 0.4123
+  hapax_legomena: 0.3890
+  hedge_I_count: 0.3771
+
+[NONE] Accuracy: 0.7091
+  hedge_E_count: -1.0596
+  certainty_verbs_count: 0.7921
+  pronoun_ratio: -0.7027
+  stopword_ratio: 0.6467
+  sentiment_subjectivity: -0.5380
+  std_word_length: -0.4935
+  anger: -0.4591
+  certainty_adjectives_count: -0.4561
+  disgust: 0.4300
+  verb_ratio: 0.3743
+
+===Significant features for quartile analysis:===
+  std_word_length
+  joy
+  pronoun_ratio
+  hedge_C_count
+
+--- std_word_length Quartile Analysis ---
+All Stances:
+  (1.171, 2.421]: Correct=0.752, Mis=0.248
+  (2.421, 2.989]: Correct=0.737, Mis=0.263
+  (2.989, 3.527]: Correct=0.769, Mis=0.231
+  (3.527, 21.106]: Correct=0.705, Mis=0.295
+AGAINST:
+  (1.171, 2.39]: Correct=0.798, Mis=0.202
+  (2.39, 2.917]: Correct=0.785, Mis=0.215
+  (2.917, 3.511]: Correct=0.774, Mis=0.226
+  (3.511, 21.106]: Correct=0.667, Mis=0.333
+FAVOR:
+  (1.6110000000000002, 2.5]: Correct=0.806, Mis=0.194
+  (2.5, 3.061]: Correct=0.743, Mis=0.257
+  (3.061, 3.531]: Correct=0.800, Mis=0.200
+  (3.531, 6.185]: Correct=0.778, Mis=0.222
+NONE:
+  (1.504, 2.53]: Correct=0.500, Mis=0.500
+  (2.53, 3.067]: Correct=0.593, Mis=0.407
+  (3.067, 3.621]: Correct=0.704, Mis=0.296
+  (3.621, 4.972]: Correct=0.750, Mis=0.250
+
+--- joy Quartile Analysis ---
+All Stances:
+  (-0.000657, 0.0046]: Correct=0.726, Mis=0.274
+  (0.0046, 0.0136]: Correct=0.776, Mis=0.224
+  (0.0136, 0.0505]: Correct=0.744, Mis=0.256
+  (0.0505, 0.99]: Correct=0.718, Mis=0.282
+AGAINST:
+  (-0.00043599999999999997, 0.00459]: Correct=0.809, Mis=0.191
+  (0.00459, 0.0134]: Correct=0.817, Mis=0.183
+  (0.0134, 0.0542]: Correct=0.699, Mis=0.301
+  (0.0542, 0.99]: Correct=0.699, Mis=0.301
+FAVOR:
+  (-0.000657, 0.00517]: Correct=0.694, Mis=0.306
+  (0.00517, 0.0134]: Correct=0.743, Mis=0.257
+  (0.0134, 0.0405]: Correct=0.886, Mis=0.114
+  (0.0405, 0.987]: Correct=0.806, Mis=0.194
+NONE:
+  (0.00035000000000000005, 0.00457]: Correct=0.500, Mis=0.500
+  (0.00457, 0.0161]: Correct=0.630, Mis=0.370
+  (0.0161, 0.0677]: Correct=0.630, Mis=0.370
+  (0.0677, 0.979]: Correct=0.786, Mis=0.214
+
+--- pronoun_ratio Quartile Analysis ---
+All Stances:
+  (-0.001, 0.0455]: Correct=0.722, Mis=0.278
+  (0.0455, 0.087]: Correct=0.766, Mis=0.234
+  (0.087, 0.308]: Correct=0.753, Mis=0.247
+AGAINST:
+  (-0.001, 0.0526]: Correct=0.733, Mis=0.267
+  (0.0526, 0.0952]: Correct=0.814, Mis=0.186
+  (0.0952, 0.25]: Correct=0.742, Mis=0.258
+FAVOR:
+  (-0.001, 0.0417]: Correct=0.822, Mis=0.178
+  (0.0417, 0.0769]: Correct=0.744, Mis=0.256
+  (0.0769, 0.238]: Correct=0.733, Mis=0.267
+NONE:
+  (-0.001, 0.0408]: Correct=0.564, Mis=0.436
+  (0.0408, 0.0825]: Correct=0.630, Mis=0.370
+  (0.0825, 0.308]: Correct=0.786, Mis=0.214
+
+--- hedge_C_count Quartile Analysis ---
+All Stances:
+  (6.999, 14.0]: Correct=0.740, Mis=0.260
+  (14.0, 17.0]: Correct=0.736, Mis=0.264
+  (17.0, 20.0]: Correct=0.753, Mis=0.247
+  (20.0, 30.0]: Correct=0.732, Mis=0.268
+AGAINST:
+  (6.999, 15.0]: Correct=0.702, Mis=0.298
+  (15.0, 18.0]: Correct=0.780, Mis=0.220
+  (18.0, 21.0]: Correct=0.787, Mis=0.213
+  (21.0, 30.0]: Correct=0.770, Mis=0.230
+FAVOR:
+  (6.999, 14.0]: Correct=0.816, Mis=0.184
+  (14.0, 17.0]: Correct=0.800, Mis=0.200
+  (17.0, 19.0]: Correct=0.744, Mis=0.256
+  (19.0, 26.0]: Correct=0.760, Mis=0.240
+NONE:
+  (6.999, 11.0]: Correct=0.806, Mis=0.194
+  (11.0, 16.0]: Correct=0.552, Mis=0.448
+  (16.0, 19.0]: Correct=0.615, Mis=0.385
+  (19.0, 29.0]: Correct=0.542, Mis=0.458
+

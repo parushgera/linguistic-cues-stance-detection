@@ -1,0 +1,10 @@
+Feature,LR Coef,Significant,Effect Size,Impact,Max Misclass Rate
+noun_ratio,+0.295,no,Cliff's delta (negligible),↑ Misclass,"36.2% ((0.281, 0.364])"
+adj_ratio,+0.287,no,Cliff's delta (negligible),↑ Misclass,"27.7% ((-0.001, 0.0588])"
+punctuation_density,+0.276,no,Cliff's delta (negligible),↑ Misclass,"45.8% ((-0.001, 0.2])"
+function_word_ratio,+0.261,no,Cliff's delta (negligible),↑ Misclass,"38.3% ((0.301, 0.4])"
+std_word_length,+0.177,no,Cliff's delta (negligible),↑ Misclass,"39.7% ((1.5990000000000002, 2.77])"
+verb_ratio,+0.146,no,Cliff's delta (negligible),↑ Misclass,"44.4% ((0.167, 0.364])"
+sentiment_polarity,+0.140,no,Cliff's delta (negligible),↑ Misclass,"45.5% ((0.0, 0.1])"
+certainty_adverbs_count,+0.139,no,Cliff's delta (negligible),↑ Misclass,"24.3% ((-0.001, 2.0])"
+sentence_length_variation,+0.112,no,Cliff's delta (negligible),↑ Misclass,"48.3% ((3.054, 14.5])"
