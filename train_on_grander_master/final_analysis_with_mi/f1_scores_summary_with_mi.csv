@@ -1,0 +1,9 @@
+Stance,Model,Mean_F1,Std_F1,Min_F1,Max_F1
+AGAINST,Logistic Regression,0.618,0.0633,0.4848,0.7083
+AGAINST,XGBoost,0.6216,0.0711,0.4632,0.7423
+All_Stances,Logistic Regression,0.5684,0.0393,0.4723,0.6124
+All_Stances,XGBoost,0.6035,0.0393,0.5246,0.66
+FAVOR,Logistic Regression,0.6625,0.0774,0.5641,0.7907
+FAVOR,XGBoost,0.6943,0.0617,0.5714,0.7901
+NONE,Logistic Regression,0.6348,0.0593,0.5484,0.7328
+NONE,XGBoost,0.6981,0.0549,0.6094,0.7874

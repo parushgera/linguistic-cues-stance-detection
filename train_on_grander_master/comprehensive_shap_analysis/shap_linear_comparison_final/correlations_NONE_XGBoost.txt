@@ -1,0 +1,11 @@
+SHAP vs Linear Model Correlations
+Stance: NONE, Model: XGBoost
+==================================================
+Overlapping features: 35
+SHAP-only features: 9
+Linear-only features: 0
+
+Correlations:
+  importance_spearman: -0.0373
+  rank_spearman: -0.0373
+  importance_pearson: 0.0827

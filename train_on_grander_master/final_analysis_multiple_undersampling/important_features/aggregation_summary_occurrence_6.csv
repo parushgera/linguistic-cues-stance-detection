@@ -1,0 +1,5 @@
+Stance,Total_Features,Final_Features,Positive_LR_Coef,Negative_LR_Coef,Avg_Both_Models_Count,Success_Rate,Success_Percentage
+All_Stances,44,7,2,5,12.9,7/44,15.9%
+FAVOR,44,2,0,2,12.5,2/44,4.5%
+AGAINST,44,5,2,3,13.0,5/44,11.4%
+NONE,44,11,6,5,12.8,11/44,25.0%

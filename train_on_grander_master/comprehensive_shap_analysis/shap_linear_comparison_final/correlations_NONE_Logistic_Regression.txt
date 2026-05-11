@@ -1,0 +1,11 @@
+SHAP vs Linear Model Correlations
+Stance: NONE, Model: Logistic Regression
+==================================================
+Overlapping features: 43
+SHAP-only features: 1
+Linear-only features: 0
+
+Correlations:
+  importance_spearman: 0.7078
+  rank_spearman: 0.7078
+  importance_pearson: 0.8329

@@ -1,8 +1,8 @@
 #!/bin/bash -l
 #SBATCH -o std_out_covid_stay
 #SBATCH -e std_err_covid_stay
-#SBATCH -p SIPEIE23
-#SBATCH -w GPU48
+#SBATCH -p CiBeR
+#SBATCH -w GPU43
 #SBATCH --mem=200GB
 #SBATCH --gres=gpu:1
 #SBATCH --mail-user=parush@usf.edu # email for notifications

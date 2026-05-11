@@ -1,0 +1,65 @@
+dataset,subdataset,sentence,flag,Bert,BiGRU,BiLSTM,Distilbert,GRU,LSTM,RNN,Roberta,Smallbert,Status
+airlines,aircraft,I loved the extra legroom in the seats which made the 14-hour flight much more comfortable.,explicit,True,True,True,True,True,True,True,True,True,Misclassified
+airlines,aircraft,The airline lost my luggage and the seat was incredibly uncomfortable.,explicit,True,True,True,True,True,True,True,True,True,Misclassified
+airlines,aircraft,The cabin was cramped and the seats were uncomfortable.,explicit,True,True,True,True,True,True,True,True,True,Misclassified
+airlines,aircraft,The cramped legroom on the flight was truly disappointing and made the journey uncomfortable.,explicit,True,True,True,True,True,True,True,True,True,Misclassified
+airlines,aircraft,The legroom in economy class was adequate for the journey,explicit,True,True,True,True,True,True,True,True,True,Misclassified
+airlines,aircraft,"The legroom on the airline's economy class flights is standard, meeting the basic requirements of most passengers.",explicit,True,True,True,True,True,True,True,True,True,Misclassified
+airlines,aircraft,The legroom on the plane was incredibly spacious.,explicit,True,True,True,True,True,True,True,True,True,Misclassified
+airlines,aircraft,The legroom on this flight was so cramped that I couldn't even stretch my legs.,explicit,True,True,True,True,True,True,True,True,True,Misclassified
+airlines,aircraft,The spacious seats and ample legroom significantly improved my overall comfort during the long-haul flight.,explicit,True,True,True,True,True,True,True,True,True,Misclassified
+airlines,booking,The flight price was surprisingly high considering the time of the year and the airline's reputation.,explicit,True,True,True,True,True,True,True,True,True,Misclassified
+airlines,flight,The airline lost my luggage and the seat was incredibly uncomfortable.,explicit,True,True,True,True,True,True,True,True,True,Misclassified
+airlines,flight,The airline's promise to provide a memorable journey turned out to be more of a hiccup than a smooth ride.,implicit,True,True,True,True,True,True,True,True,True,Misclassified
+airlines,flight,"The in-flight entertainment system was glitch-free, providing a smooth experience throughout the entire journey.",explicit,True,True,True,True,True,True,True,True,True,Misclassified
+airlines,flight,"The legroom on the airline's economy class flights is standard, meeting the basic requirements of most passengers.",explicit,True,True,True,True,True,True,True,True,True,Misclassified
+airlines,ground,"I always arrive at the gate right as the boarding starts, no stress, no panic.",implicit,True,True,True,True,True,True,True,True,True,Misclassified
+airlines,ground,The online check-in system was incredibly efficient and streamlined the process,explicit,True,True,True,True,True,True,True,True,True,Misclassified
+airlines,punctuality,"The crew was extremely apologetic and offered compensation for the unexpected delay, demonstrating an understanding of customer satisfaction.",implicit,True,True,True,True,True,True,True,True,True,Misclassified
+cars,interior,"The smooth, luxurious ride made every mile feel priceless.",implicit,True,True,True,True,True,True,True,True,True,Misclassified
+cars,maintenance,I've driven it for years and it's still going strong with minimal repairs.,implicit,True,True,True,True,True,True,True,True,True,Misclassified
+cars,maintenance,The low ownership costs of this car make it a great choice for those who prioritize long-term value.,implicit,True,True,True,True,True,True,True,True,True,Misclassified
+cars,performance,"Even at high speeds, the car didn't skid, instilling confidence in every turn.",implicit,True,True,True,True,True,True,True,True,True,Misclassified
+cars,safety,I got an adrenaline rush driving down the highway with the windows down.,implicit,True,True,True,True,True,True,True,True,True,Misclassified
+cars,safety,"When it comes to long drives, this vehicle doesn't inspire confidence.",implicit,True,True,True,True,True,True,True,True,True,Misclassified
+cars,value,I'm disappointed with the high maintenance costs of this car; they are much greater than I expected.,explicit,True,True,True,True,True,True,True,True,True,Misclassified
+cars,value,The car's fuel efficiency and low maintenance costs are remarkable for its age.,explicit,True,True,True,True,True,True,True,True,True,Misclassified
+cars,value,The car's low maintenance costs and reliable performance have made it a great investment for our family.,explicit,True,True,True,True,True,True,True,True,True,Misclassified
+cars,value,The low ownership costs of this car make it a great choice for those who prioritize long-term value.,implicit,True,True,True,True,True,True,True,True,True,Misclassified
+cars,value,"The maintenance costs of my car are surprisingly low, which is a huge plus.",explicit,True,True,True,True,True,True,True,True,True,Misclassified
+healthcare,communication,"Every step of the treatment process was seamless, which made the entire experience less stressful.",implicit,True,True,True,True,True,True,True,True,True,Misclassified
+healthcare,communication,"I always have to remind them to send my test results to the right doctor, but they seem to keep making the same mistake.",implicit,True,True,True,True,True,True,True,True,True,Misclassified
+healthcare,communication,Our entire experience was overshadowed by the unending uncertainty.,implicit,True,True,True,True,True,True,True,True,True,Misclassified
+healthcare,communication,The doctor's punctuality was exceptional.,explicit,True,True,True,True,True,True,True,True,True,Misclassified
+healthcare,communication,"The hospital staff was extremely efficient with their scheduling, making my visit smooth and stress-free.",explicit,True,True,True,True,True,True,True,True,True,Misclassified
+healthcare,communication,They were always ready with prompt answers to our questions.,implicit,True,True,True,True,True,True,True,True,True,Misclassified
+healthcare,communication,"Waiting for hours, we felt like our concerns were swept under the rug",implicit,True,True,True,True,True,True,True,True,True,Misclassified
+healthcare,doctor,I felt reassured every step of the way during my appointment.,implicit,True,True,True,True,True,True,True,True,True,Misclassified
+healthcare,doctor,The doctor's detailed explanations about my test results helped me understand my condition clearly.,explicit,True,True,True,True,True,True,True,True,True,Misclassified
+healthcare,doctor,We felt constantly reassured during our time there.,implicit,True,True,True,True,True,True,True,True,True,Misclassified
+healthcare,facility,"I felt so comfortable during my stay at the hospital, the environment was calming and the process was seamless.",implicit,True,True,True,True,True,True,True,True,True,Misclassified
+healthcare,outcome,The patient felt relieved after finally receiving a diagnosis.,implicit,True,True,True,True,True,True,True,True,True,Misclassified
+healthcare,staff,"I always felt well-informed and reassured during my stay at the hospital, which made my recovery much smoother.",implicit,True,True,True,True,True,True,True,True,True,Misclassified
+healthcare,staff,"I always have to remind them to send my test results to the right doctor, but they seem to keep making the same mistake.",implicit,True,True,True,True,True,True,True,True,True,Misclassified
+healthcare,staff,The clinic's environment made it difficult to trust the care we received.,implicit,True,True,True,True,True,True,True,True,True,Misclassified
+healthcare,staff,"The hospital staff was extremely efficient with their scheduling, making my visit smooth and stress-free.",explicit,True,True,True,True,True,True,True,True,True,Misclassified
+healthcare,staff,The nurses promptly responded to our queries during the stay.,explicit,True,True,True,True,True,True,True,True,True,Misclassified
+hotels,food,"I always look forward to my stay at this hotel, especially the enjoyable experiences I have each morning.",implicit,True,True,True,True,True,True,True,True,True,Misclassified
+hotels,location,I loved how conveniently located everything was within the hotel.,implicit,True,True,True,True,True,True,True,True,True,Misclassified
+movies,direction,"Despite the film's pacing being a bit slow in the second act, it kept everyone laughing and on the edge of their seats throughout the rest of the movie.",implicit,True,True,True,True,True,True,True,True,True,Misclassified
+movies,direction,The cinematography masterfully captured the essence of the story.,explicit,True,True,True,True,True,True,True,True,True,Misclassified
+movies,direction,"The nonlinear narrative of the film keeps me on my toes, revealing bits of the story out of order but enriching the overall storytelling.",explicit,True,True,True,True,True,True,True,True,True,Misclassified
+movies,direction,"This film was like a perfectly crafted painting, where each brushstroke led you through a journey of emotions.",implicit,True,True,True,True,True,True,True,True,True,Misclassified
+movies,entertainment,"Despite the film's lackluster pace, the ensemble cast brought life to each character.",implicit,True,True,True,True,True,True,True,True,True,Misclassified
+movies,entertainment,I couldn't stop thinking about the film for days.,implicit,True,True,True,True,True,True,True,True,True,Misclassified
+movies,entertainment,I left the theater feeling completely drained and unenthused,implicit,True,True,True,True,True,True,True,True,True,Misclassified
+movies,entertainment,I was on the edge of my seat the entire time.,implicit,True,True,True,True,True,True,True,True,True,Misclassified
+movies,entertainment,The movie had me on the edge of my seat from start to finish.,implicit,True,True,True,True,True,True,True,True,True,Misclassified
+movies,entertainment,The visually stunning visuals and memorable score created an immersive experience that kept me engaged until the very end.,implicit,True,True,True,True,True,True,True,True,True,Misclassified
+movies,plot,"The film's clever plot twists kept me engaged till the end, and I couldn't help but laugh at the absurdity of it all.",implicit,True,True,True,True,True,True,True,True,True,Misclassified
+movies,plot,"The film's surprise twist kept me engaged until the very end, leaving me eager for a sequel.",implicit,True,True,True,True,True,True,True,True,True,Misclassified
+movies,plot,The film's thought-provoking storyline and unexpected twists had me hooked from start to finish.,implicit,True,True,True,True,True,True,True,True,True,Misclassified
+movies,plot,The film's unpredictable plot twists kept me engaged until the very end.,implicit,True,True,True,True,True,True,True,True,True,Misclassified
+movies,plot,The movie's twists and turns had me hooked from the very beginning.,implicit,True,True,True,True,True,True,True,True,True,Misclassified
+movies,plot,The plot twist towards the end left me utterly astonished.,implicit,True,True,True,True,True,True,True,True,True,Misclassified
+movies,plot,The story unfolded with such captivating twists that it was impossible to put the film down.,implicit,True,True,True,True,True,True,True,True,True,Misclassified

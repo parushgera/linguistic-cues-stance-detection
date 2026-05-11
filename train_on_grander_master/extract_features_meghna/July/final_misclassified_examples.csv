@@ -1,0 +1,38 @@
+dataset,subdataset,sentence,flag,Bert,BiGRU,BiLSTM,Distilbert,GRU,LSTM,RNN,Roberta,Smallbert,Status
+SemEval_2014,anecdotes_miscellaneous_anecdotes_miscellaneous,"Been to the one in Brooklyn for over 25 years, now I dont have to go over the bridge for the best pizza ....Hanx",explicit,True,True,True,True,True,True,True,True,True,Misclassified
+SemEval_2014,anecdotes_miscellaneous_anecdotes_miscellaneous,Cool atmosphere but such a let down.,explicit,True,True,True,True,True,True,True,True,True,Misclassified
+SemEval_2014,anecdotes_miscellaneous_anecdotes_miscellaneous,I also recommend the garlic knots.,explicit,True,True,True,True,True,True,True,True,True,Misclassified
+SemEval_2014,anecdotes_miscellaneous_anecdotes_miscellaneous,I recomend the chicken milanese.,explicit,True,True,True,True,True,True,True,True,True,Misclassified
+SemEval_2014,anecdotes_miscellaneous_anecdotes_miscellaneous,I went for restaurant week and ordered off the prix fixe menu,explicit,True,True,True,True,True,True,True,True,True,Misclassified
+SemEval_2014,anecdotes_miscellaneous_anecdotes_miscellaneous,I'm in love with the lobster ravioli!,explicit,True,True,True,True,True,True,True,True,True,Misclassified
+SemEval_2014,anecdotes_miscellaneous_anecdotes_miscellaneous,I've had better Japanese food at a mall food court.,explicit,True,True,True,True,True,True,True,True,True,Misclassified
+SemEval_2014,anecdotes_miscellaneous_anecdotes_miscellaneous,"If you're in the neighborhood, definitely stop by for a great meal.",explicit,True,True,True,True,True,True,True,True,True,Misclassified
+SemEval_2014,anecdotes_miscellaneous_anecdotes_miscellaneous,It's cute and simple and I loved it.,implicit,True,True,True,True,True,True,True,True,True,Misclassified
+SemEval_2014,anecdotes_miscellaneous_anecdotes_miscellaneous,MY date and I both ordered the Branzini and both felt the fish was very average.,explicit,True,True,True,True,True,True,True,True,True,Misclassified
+SemEval_2014,anecdotes_miscellaneous_anecdotes_miscellaneous,"The ambiance was pretty cool, but not worth the hassle.",explicit,True,True,True,True,True,True,True,True,True,Misclassified
+SemEval_2014,anecdotes_miscellaneous_anecdotes_miscellaneous,The lack of AC and the fact that there are a million swarming bodies (although everyone is polite and no one is pushing) is a slight turn off.,explicit,True,True,True,True,True,True,True,True,True,Misclassified
+SemEval_2014,anecdotes_miscellaneous_anecdotes_miscellaneous,"The service was a bit slow and the portions are a bit small so if you are hungry and in a rush, this is not the place for you.",explicit,True,True,True,True,True,True,True,True,True,Misclassified
+SemEval_2014,anecdotes_miscellaneous_anecdotes_miscellaneous,"The service was pretty poor all around, the food was well below average relative to the cost, and outside there is a crazy bum who harasses every customer who leaves the place.",explicit,True,True,True,True,True,True,True,True,True,Misclassified
+SemEval_2014,anecdotes_miscellaneous_anecdotes_miscellaneous,We came across this restaurant by accident while at a DUMBO art festival and thoroughly enjoyed our meal.,explicit,True,True,True,True,True,True,True,True,True,Misclassified
+SemEval_2015,RESTAURANT#GENERAL_RESTAURANT#GENERAL,"At $120 for two people, however, this in no way represents value, unless you're looking to pay by the hour for passive-aggressive torture.",implicit,True,True,True,True,True,True,True,True,True,Misclassified
+SemEval_2015,RESTAURANT#GENERAL_RESTAURANT#GENERAL,"But nonetheless--great spot, great food.",explicit,True,True,True,True,True,True,True,True,True,Misclassified
+SemEval_2015,RESTAURANT#GENERAL_RESTAURANT#GENERAL,"For me dishes a little oily, but overall dining experience good.",implicit,True,True,True,True,True,True,True,True,True,Misclassified
+SemEval_2015,RESTAURANT#GENERAL_RESTAURANT#GENERAL,Highly impressed from the decor to the food to the hospitality to the great night I had!,implicit,True,True,True,True,True,True,True,True,True,Misclassified
+SemEval_2015,RESTAURANT#GENERAL_RESTAURANT#GENERAL,"I have it a 4 instead of 5 because of the price (just chicken tikka masala - no bread of rice - is $25), which I would expect at a upscale Indian restaurant but this place doesn't have an upscale feel.",explicit,True,True,True,True,True,True,True,True,True,Misclassified
+SemEval_2015,RESTAURANT#GENERAL_RESTAURANT#GENERAL,I was visiting New York City with a friend and we discovered this really warm and inviting restaurant.,explicit,True,True,True,True,True,True,True,True,True,Misclassified
+SemEval_2015,RESTAURANT#GENERAL_RESTAURANT#GENERAL,"If you go here, do it on his off-night.",implicit,True,True,True,True,True,True,True,True,True,Misclassified
+SemEval_2015,RESTAURANT#GENERAL_RESTAURANT#GENERAL,Pacifico is a great place to casually hang out.,explicit,True,True,True,True,True,True,True,True,True,Misclassified
+SemEval_2015,RESTAURANT#GENERAL_RESTAURANT#GENERAL,"The food was excellent as well as service, however, I left The Four Seasons very dissappointed.",explicit,True,True,True,True,True,True,True,True,True,Misclassified
+SemEval_2015,RESTAURANT#GENERAL_RESTAURANT#GENERAL,The place is beautiful!,explicit,True,True,True,True,True,True,True,True,True,Misclassified
+SemEval_2015,RESTAURANT#GENERAL_RESTAURANT#GENERAL,This place survives on reputation alone.,explicit,True,True,True,True,True,True,True,True,True,Misclassified
+SemEval_2015,RESTAURANT#GENERAL_RESTAURANT#GENERAL,"Very, very nice",implicit,True,True,True,True,True,True,True,True,True,Misclassified
+SemEval_2015,RESTAURANT#GENERAL_RESTAURANT#GENERAL,"never swaying, never a bad meal, never bad service...",implicit,True,True,True,True,True,True,True,True,True,Misclassified
+SemEval_2015,RESTAURANT#GENERAL_RESTAURANT#GENERAL,not only is the food,implicit,True,True,True,True,True,True,True,True,True,Misclassified
+SemEval_2016,RESTAURANT#GENERAL_RESTAURANT#GENERAL,I just found out that you can have the place to yourself on nights and weekends for a private party - can't wait to celebrate my next birthday there.,explicit,True,True,True,True,True,True,True,True,True,Misclassified
+SemEval_2016,RESTAURANT#GENERAL_RESTAURANT#GENERAL,I love breakfast here.,explicit,True,True,True,True,True,True,True,True,True,Misclassified
+SemEval_2016,RESTAURANT#GENERAL_RESTAURANT#GENERAL,I'm astonished that this restaurant is categorized as $$$ rather than $$$$.,explicit,True,True,True,True,True,True,True,True,True,Misclassified
+SemEval_2016,RESTAURANT#GENERAL_RESTAURANT#GENERAL,i highly recommend this place to all that want to try indain food for the first time.,explicit,True,True,True,True,True,True,True,True,True,Misclassified
+SemEval_2016,SERVICE#GENERAL_SERVICE#GENERAL,I went home & looked them up online again where I discovered there is a link for a give away that doesn't work so emailed the restaurant about the non existent service & deceptive link.,explicit,True,True,True,True,True,True,True,True,True,Misclassified
+SemEval_2016,SERVICE#GENERAL_SERVICE#GENERAL,None that I can think of.,implicit,True,True,True,True,True,True,True,True,True,Misclassified
+SemEval_2016,SERVICE#GENERAL_SERVICE#GENERAL,WHAT ELSE CAN YOU SAY NICE PEOPLE AMAZING FOOD WOW,explicit,True,True,True,True,True,True,True,True,True,Misclassified
+SemEval_2016,SERVICE#GENERAL_SERVICE#GENERAL,– ...and the best summertime deck experience--they will even bring you a blanket if you get cold in the Seattle evening weather.,implicit,True,True,True,True,True,True,True,True,True,Misclassified
