@@ -45,7 +45,7 @@ Headline finding: each stance class has a distinct stylistic profile.
 ## Repository layout
 
 ```
-style_markers/
+linguistic-cues-stance-detection/
 ├── README.md                     # this file
 ├── requirements.txt              # pinned Python dependencies
 ├── baselines/                    # the six model architectures (BiGRU/ATBiGRU/BiLSTM/ATBiLSTM/KimCNN/BERT)
@@ -188,8 +188,8 @@ workflow is to invoke them **from the repo root** so any imports of
 ### 0. Environment
 
 ```bash
-conda create -n style_markers python=3.10
-conda activate style_markers
+conda create -n linguistic-cues-stance-detection python=3.10
+conda activate linguistic-cues-stance-detection
 pip install -r requirements.txt
 
 python -m nltk.downloader punkt punkt_tab averaged_perceptron_tagger averaged_perceptron_tagger_eng stopwords
