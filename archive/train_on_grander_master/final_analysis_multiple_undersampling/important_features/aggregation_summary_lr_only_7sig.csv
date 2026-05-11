@@ -1,0 +1,5 @@
+Stance,Total_Features,Final_Features,Positive_LR_Coef,Negative_LR_Coef,Also_Have_XGB,LR_Only,Avg_Significance,Success_Rate,Success_Percentage
+All_Stances,44,5,1,4,5,0,9.8,5/44,11.4%
+FAVOR,44,1,0,1,1,0,8.0,1/44,2.3%
+AGAINST,44,5,2,3,5,0,9.6,5/44,11.4%
+NONE,44,6,3,3,6,0,10.7,6/44,13.6%

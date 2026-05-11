@@ -1,0 +1,9 @@
+stance,model,mean_f1,std_f1,n_iterations
+AGAINST,Logistic_Regression,0.5901,0.1128,13
+AGAINST,XGBoost,0.5918,0.0998,13
+All_Stances,Logistic_Regression,0.625,0.0384,13
+All_Stances,XGBoost,0.6354,0.0504,13
+FAVOR,Logistic_Regression,0.6833,0.1003,13
+FAVOR,XGBoost,0.648,0.0802,13
+NONE,Logistic_Regression,0.7713,0.0462,13
+NONE,XGBoost,0.7888,0.0602,13

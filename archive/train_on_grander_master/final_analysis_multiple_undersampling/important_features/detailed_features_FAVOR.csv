@@ -1,0 +1,2 @@
+feature,Logistic Regression,XGBoost,correct_mean_std,incorrect_mean_std,lr_coef_count,xgb_coef_count,num_significant,significance_rate,lr_sign
+doubt_adverbs_count*,-0.4416943870392558,0.0268586874008178,0.2044 ± 0.4242,0.3679 ± 0.6804,13,12,8,8/13,negative

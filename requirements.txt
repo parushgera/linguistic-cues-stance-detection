@@ -1,0 +1,33 @@
+# Pinned dependencies used to produce the camera-ready *SEM 2026 paper
+# (co-located with ACL 2026):
+# "Understanding the Linguistic Cues Behind Stance Detection".
+# Tested with Python 3.10. Other patch versions of these packages should work,
+# but newer major versions (esp. of transformers, torch, simpletransformers)
+# have introduced breaking API changes — pin if you hit issues.
+
+# -- Core scientific stack --
+numpy==1.23.5
+pandas==1.2.4
+scipy==1.10.0
+scikit-learn==0.24.2
+matplotlib==3.9.4
+seaborn==0.13.2
+tqdm==4.65.0
+
+# -- Deep learning + transformer models --
+torch==1.12.1
+transformers==4.31.0
+simpletransformers==0.64.5            # provides NERModel for hedgehog (token-level hedging)
+sentence-transformers>=2.2,<3.0       # all-MiniLM-L6-v2 token embeddings for non-BERT models
+
+# -- Stylistic / NLP feature extraction --
+nltk==3.9.1
+spacy==3.5.0                          # also requires `python -m spacy download en_core_web_sm`
+textstat>=0.7,<1.0                    # Flesch-Kincaid readability
+textblob>=0.17,<0.19                  # sentiment polarity / subjectivity
+nrclex>=4.0                           # imported by extract_features.py (legacy; not on the critical path)
+
+# -- Analysis --
+xgboost>=1.5,<2.0
+shap>=0.41,<0.45                      # SHAP values for LR + XGBoost
+optuna>=3.0,<4.0                      # only needed if you want to re-run hyperparameter search

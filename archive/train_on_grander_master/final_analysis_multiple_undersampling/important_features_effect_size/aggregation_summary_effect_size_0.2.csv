@@ -1,0 +1,5 @@
+Stance,Total_Features,Final_Features,Large_Effects,Medium_Effects,Small_Effects,Avg_Effect_Size,Success_Rate,Success_Percentage
+All_Stances,44,11,0,0,9,0.253,11/44,25.0%
+FAVOR,44,28,1,6,15,0.478,28/44,63.6%
+AGAINST,44,27,0,0,14,0.489,27/44,61.4%
+NONE,44,17,0,2,15,0.289,17/44,38.6%
