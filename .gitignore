@@ -9,6 +9,10 @@ __pycache__/
 .vscode/
 .idea/
 
+# Cursor IDE — keep local-only rules / chats / configs out of the public repo
+.cursor/
+AGENTS.md
+
 # SLURM stdout/stderr files used by the original training scripts
 **/std_*
 
